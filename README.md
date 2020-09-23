@@ -2,6 +2,23 @@
 BMED320 project on Imaging Mass Cytometry and Machine Learning at Department of Biomedicine, UiB
 
 
+# Setting up your system (preparation to the project)
+
+**Follow the instructions at [Setting up your system](setup.md) (`setup.md`) to get ready**
+
+### Browser
+- Display and functionality might differ between browsers - we recommend using Google [Chrome](https://www.google.com/chrome) on all platforms
+
+# Notebooks
+The course is based on the Jupyter Notebook, a web-based framework for developing and presenting code-based projects (take a look at https://youtu.be/HW29067qVWk og https://youtu.be/2eCHD6f_phE for introductions to Jupyter Notebooks).
+
+### IMPORTANT (for making your own notebooks for coding experiments without conflict)
+Throughout the course you will work with notebooks that contain various material and programming tasks. We recommend that you *make a copy of our notebooks before you are editing them*. In this respect you might adopt the naming convention `my_[name_of_notebook].ipynb`. Remember also to start a new session with a `**git pull**` (things can have changed).
+
+
+## Get started - test your environment
+* [Python, Numpy, Pandas, Matplotlib, Cellpose, PyCaret and more](./test-notebooks/x.0-test-yyyyy.ipynb): run through this notebook (`test-notebooks/1.0-test-cellpose.ipynb`) and  (`test-notebooks/2.0-test-pycaret.ipynb`) to check that your environment is OK.<br>
+
 
 ## Imaging Flow Cytometry (IFC)
 
