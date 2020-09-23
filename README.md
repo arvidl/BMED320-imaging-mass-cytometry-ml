@@ -1,4 +1,4 @@
-# BMED320: Methods in biomedical research - IMC
+# BMED320: Methods in biomedical research - IMC-ML
 _BMED320-imaging-mass-cytometry-ml_ - project on Imaging Mass Cytometry and Machine Learning at Department of Biomedicine, UiB
 
 **Computational imaging and machine learning in biomedicine**
