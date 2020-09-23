@@ -1,4 +1,5 @@
-# BMED320: Methods in biomedical research” - _BMED320-imaging-mass-cytometry-ml_
+# BMED320: Methods in biomedical research” 
+_BMED320-imaging-mass-cytometry-ml_
 
 **Computational imaging and machine learning in biomedicine (BMED320)**
 
