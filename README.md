@@ -26,6 +26,8 @@ Mass-tagging involves separation of signals based on the differences in mass, re
 
 The metal tags can be defined within 1 Da spatial resolution in tissue and cell smears, resulting in a unique spatial and parametric definition of the cells in situ. The system enables understanding of protein behavior and interactions to drive biological breakthroughs.
 
+### For references see [[here](refs)]
+
 ### Workflow of imaging mass cytometry ([Bodenmiller lab](http://www.bodenmillerlab.com/research-2/imaging-mass-cytometry))
 Imaging mass cytometry couples immunohistochemical and immunocytochemical methods with high-resolution laser ablation to CyTOF mass cytometry. Currently, the method allows the simultaneous imaging of 44 proteins and protein modifications at subcellular resolution; with the availability of additional isotopes, measurement of over 100 markers will be possible.
 
@@ -39,8 +41,6 @@ Workflow of imaging mass cytometry (Figure from Giesen et al., Nature Methods, 2
 
 ![Image processing MCI](https://www.frontiersin.org/files/Articles/469030/fimmu-10-02657-HTML/image_m/fimmu-10-02657-g003.jpg)
 
-
-## For references see [[here](refs)]
 
 ## IMC Segmentation Pipeline (Bodenmiller Group)
 
