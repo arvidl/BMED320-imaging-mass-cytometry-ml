@@ -35,6 +35,24 @@ Imaging mass cytometry or CyTOF (Fluidigm) is a clever and powerful tool for lev
 - After the tissues are labeled with these metal-conjugated antibodies, the slides are ablated with a laser in approximately 1 um2 pixels. The tissue from these pixels and associated metals are then passed through a mass spec which can quantitatively assess the presence and quantity of each metal in a pixel. After a pixel is ablated, another adjacent pixel is ablated within a 1000 x 1000 pixel field of view until all of the metals from each pixel have been passed through the mass spec.
 - Using the mass spec data associated with each pixel, an image can then be created for each marker from the tissue.
 
+
+**ADVANTAGES OF IMAGING MASS CYTOMETRY**
+
+The core advantage of imaging mass cytometry compared to fluorescent microscopy is that there is almost no noise in the data as each metal isotopes has its on distinct detection peak and does not overlap with other metal isotopes. Furthermore, because metal isotopes are used that do not typically occur in vivo, there is almost zero background noise and thus the contrast between markers of interest and the background is ideal for image analysis. Because of this lack of noise, a single tissue sample can be imaged for 40+ markers simultaneously from a single slide. This broad multiplex capability means that complex research questions can be addressed and researchers for example can study many immune cell types and subtypes combined with key spatial and cell markers.
+
+**DISADVANTAGES OF IMAGING MASS CYTOMETRY**
+
+When imaging tissues, there is no one size-fits-all solution and the same holds true for Imaging Mass Cytometry. There are several disadvantages with the approach that researchers need to be aware of when considering adopting the technique:
+
+- Imaging Resolution and Field of View: When using this approach, we are generating 1,000,000 different mass spec samples and then using these mass spec samples to generate imaging data. Therefore, the time required for mass spec analysis limits the number of pixels that we can sample in a reasonable time wherein we can sample 1,000,000 pixels in approximately 2 hours. This means that it takes 2 hours to sample a 1 mm2 area from a slide and thus we can only sample 0.2% of the area of a cover slip every two hours. Additionally, this pixel size and field of view is only equivalent to roughly 10X magnification imaging which means that we are slightly limited in the cellular features we can observe.
+- Data Generation and Time: The time required to sample a 1 mm2 area of tissue means that we can only sample 12 slides or samples per day. This is comparable to 4 channel fluorescent slide scanning but in that case we are able to scan whole slides and to image at 40X. Therefore, fluorescent slide scanning generates 1,000 times more data in the same period of time of time.
+- Cost: Imaging mass cytometry requires the use of metal-conjugated antibodies which can be substantially more expensive than fluorescent conjugated antibodies which greatly increases the consumable cost of imaging. Additionally, imaging mass cytometry requires the use of argon as well as helium gas for mass spec analysis which are expensive consumables.
+
+**Use Cases for Imaging Mass Cytometry**
+
+The key use case for imaging mass cytometry is for research questions that involve more than ten markers but where high resolution and large spatial areas are not required. This technology is particularly applicable in the fields of immuno-oncology and immunology where researchers are interested in study the complex interplay between many different types of immune cells (e.g. T-Cells, B-Cells, natural killer cells, macrophages) and immune cell subtypes.
+
+
 ## Imaging Flow Cytometry (IFC) at UiB
 
 cf. [Flow Cytometry Core Facility](https://www.uib.no/en/clin2/flow) at UiB
