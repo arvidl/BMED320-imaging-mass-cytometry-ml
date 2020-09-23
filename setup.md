@@ -89,7 +89,7 @@ cd test-notebooks
 jupyter notebook  (or, jupyter lab)
 ```
 
-**Unsupervised classification*: Go through the notebook `1.0-test-pycaret.ipynb` in the `test-notebooks`-directory:
+**Clustering (K-means)**: Go through the notebook `1.0-test-pycaret.ipynb` in the `test-notebooks`-directory:
 ```bash
 cd test-notebooks
 jupyter notebook  (or, jupyter lab)
