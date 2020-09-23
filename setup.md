@@ -83,13 +83,13 @@ You can (preferably) consider to use [JupyterLab](https://github.com/jupyterlab/
 
 
 ### Test you installation:
-Go through the notebook `0.0-test-installation.ipynb` in the `test-notebooks`-directory:
+**Cell segmentation**: Go through the notebook `1.0-test-cellpose.ipynb` in the `test-notebooks`-directory:
 ```bash
 cd test-notebooks
 jupyter notebook  (or, jupyter lab)
 ```
 
-Go through the notebook `1.0-test-cellpose.ipynb` in the `test-notebooks`-directory:
+**Unsupervised classification*: Go through the notebook `1.0-test-pycaret.ipynb` in the `test-notebooks`-directory:
 ```bash
 cd test-notebooks
 jupyter notebook  (or, jupyter lab)
