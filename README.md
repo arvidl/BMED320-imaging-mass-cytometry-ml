@@ -17,7 +17,7 @@ Throughout the course you will work with notebooks that contain various material
 
 
 ## Get started - test your environment
-* [Python, Numpy, Pandas, Matplotlib, Cellpose, PyCaret and more](./test-notebooks/x.0-test-yyyyy.ipynb): run through this notebook (`test-notebooks/1.0-test-cellpose.ipynb`) and  (`test-notebooks/2.0-test-pycaret.ipynb`) to check that your environment is OK.<br>
+* [Python, Numpy, Pandas, Matplotlib, Cellpose, PyCaret and more](./test-notebooks): run through this notebook (`test-notebooks/1.0-test-cellpose.ipynb`) and  (`test-notebooks/2.0-test-pycaret.ipynb`) to check that your environment is OK.<br>
 
 
 ## Imaging Flow Cytometry (IFC)
