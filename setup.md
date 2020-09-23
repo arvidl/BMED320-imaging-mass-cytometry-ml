@@ -45,6 +45,15 @@ Install Atom (Mac Windows Linux) from: https://flight-manual.atom.io/getting-sta
 ## GitHub:
 The course code is hosted on the code-sharing platform GitHub (where you now are reading this). If you do not have a GitHub account already you should make one now. We recommend that you are using the platform for you own projects during the course. https://github.com/join.
 
+## CellProfiler:
+Cell image analysis software designed for biologists! (download from https://cellprofiler.org)
+- **Load** an example CellProfiler pipeline, a series of image-processing modules
+- **Adjust** the settings to measure the phenotypes of interest in your images
+- **Process** images automatically — even millions
+- **Export** your data to a spreadsheet or database
+- **Explore** your data and classify complex or subtle phenotypes using machine learning (e.g. [PyCaret](https://pycaret.org))
+
+
 ## Install and test the course environment
 
 After you have successfully installed Anaconda, go through the following steps (if you are using Windows, be at the "Anaconda Prompt").
