@@ -1,0 +1,43 @@
+name: imc
+dependencies:
+- python = 3.7
+- conda-forge::jupyter_contrib_nbextensions
+- conda-forge::jupyterlab
+- conda-forge::statsmodels
+- git
+- imageio
+- ipykernel
+- ipython
+- ipywidgets
+- jupyter
+- matplotlib
+- numba
+- numpy
+- openpyxl
+- pandas
+- plotly
+- pip
+- pyqt
+- scikit-image
+- scikit-learn
+- scipy
+- seaborn
+- sympy
+- pip:
+  - cellpose
+  - eli5
+  - google-cloud-storage
+  - imagecodecs
+  - imctools==2.0.1
+  - mxnet-mkl
+  - natsort
+  - opencv-python
+  - opencv-python-headless
+  - pdpbox
+  - pycaret==2.1
+  - pyqtgraph==0.11.0rc0
+  - tifffile
+  - tqdm
+  - xlrd
+  - xmltodict
+  - xtiff
