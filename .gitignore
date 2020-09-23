@@ -13,4 +13,5 @@ __pycache__/
 unsynceddata/
 
 # Mac
-.DS_STORE
+.DS_Store
+
