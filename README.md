@@ -1,5 +1,10 @@
-# BMED320-imaging-mass-cytometry-ml
-BMED320 project on Imaging Mass Cytometry and Machine Learning at Department of Biomedicine, UiB
+# BMED320: Methods in biomedical research” - _BMED320-imaging-mass-cytometry-ml_
+
+**Computational imaging and machine learning in biomedicine (BMED320)**
+
+Our group is working at the Mohn Medical Imaging and Visualisation (MMIV) Centre on machine learning in medical imaging. We offer the opportunity to get into the methods and tools (e.g. Jupyter notebooks and Python programming) related to this research. See also the topics and teaching material at the virtual NordBioMedNet Summer School 2020: Computational Biomedicine - Imaging, machine learning and precision medicine (https://github.com/oercompbiomed/Seili-2020) that might interest you. 
+
+### BMED320 project on Imaging Mass Cytometry and Machine Learning at Department of Biomedicine, UiB
 
 
 # Setting up your system (preparation to the project)
@@ -19,8 +24,18 @@ Throughout the course you will work with notebooks that contain various material
 ## Get started - test your environment
 * [Python, Numpy, Pandas, Matplotlib, Cellpose, PyCaret and more](./test-notebooks): run through this notebook (`test-notebooks/1.0-test-cellpose.ipynb`) and  (`test-notebooks/2.0-test-pycaret.ipynb`) to check that your environment is OK.<br>
 
+# Imaging Mass Cytometry 
+(adapted from https://visikol.com/imaging-mass-cytometry)
 
-## Imaging Flow Cytometry (IFC)
+**INTRODUCTION**
+
+Imaging mass cytometry or CyTOF (Fluidigm) is a clever and powerful tool for leveraging mass spectroscopy to acquire imaging data from tissues with 40+ labels at the same time. The general premise of the technology is as follows:
+
+- Traditional tissue slices on microscope slides are labeled with antibodies to highlight specific proteins of interest but instead of the antibodies being conjugated to fluorophores like they are in fluorescence microscopy, they are conjugated to metals that normally would not appear in vivo (e.g. palladium).
+- After the tissues are labeled with these metal-conjugated antibodies, the slides are ablated with a laser in approximately 1 um2 pixels. The tissue from these pixels and associated metals are then passed through a mass spec which can quantitatively assess the presence and quantity of each metal in a pixel. After a pixel is ablated, another adjacent pixel is ablated within a 1000 x 1000 pixel field of view until all of the metals from each pixel have been passed through the mass spec.
+- Using the mass spec data associated with each pixel, an image can then be created for each marker from the tissue.
+
+## Imaging Flow Cytometry (IFC) at UiB
 
 cf. [Flow Cytometry Core Facility](https://www.uib.no/en/clin2/flow) at UiB
 
@@ -31,7 +46,7 @@ An important feature of flow cytometry is that large numbers, for example thousa
 At the core facility you also have access to the **Mass cytometer** the Helios from Fluidigm. This technology allows for the analysis of more than 42 parameters simultaneously on a single cell basis, to enable breakthrough discovery and comprehensive functional profiling applications.
 
 
-## Imaging Mass Cytometry (IMC)
+## Imaging Mass Cytometry (IMC) at UiB
 
 cf. [Hyperion - Image Mass Cytometry](https://www.uib.no/en/clin2/flow/120463/hyperion-image-mass-cytometry) at UiB
 
