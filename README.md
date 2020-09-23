@@ -52,6 +52,8 @@ When imaging tissues, there is no one size-fits-all solution and the same holds 
 
 The key use case for imaging mass cytometry is for research questions that involve more than ten markers but where high resolution and large spatial areas are not required. This technology is particularly applicable in the fields of immuno-oncology and immunology where researchers are interested in study the complex interplay between many different types of immune cells (e.g. T-Cells, B-Cells, natural killer cells, macrophages) and immune cell subtypes.
 
+### For references see [[here](refs)]
+
 
 ## Imaging Flow Cytometry (IFC) at UiB
 
@@ -76,9 +78,9 @@ Mass-tagging involves separation of signals based on the differences in mass, re
 
 The metal tags can be defined within 1 Da spatial resolution in tissue and cell smears, resulting in a unique spatial and parametric definition of the cells in situ. The system enables understanding of protein behavior and interactions to drive biological breakthroughs.
 
-### For references see [[here](refs)]
 
-### Workflow of imaging mass cytometry ([Bodenmiller lab](http://www.bodenmillerlab.com/research-2/imaging-mass-cytometry))
+
+## Workflow of imaging mass cytometry ([Bodenmiller lab](http://www.bodenmillerlab.com/research-2/imaging-mass-cytometry))
 Imaging mass cytometry couples immunohistochemical and immunocytochemical methods with high-resolution laser ablation to CyTOF mass cytometry. Currently, the method allows the simultaneous imaging of 44 proteins and protein modifications at subcellular resolution; with the availability of additional isotopes, measurement of over 100 markers will be possible.
 
 ![Bodenmiller lab](http://www.bodenmillerlab.org/wp-content/uploads/2014/09/NMETH-A19779B_GiesenEtAl_CyTOF_Imaging_Figure1.jpg)
