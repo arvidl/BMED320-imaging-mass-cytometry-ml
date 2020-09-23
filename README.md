@@ -1,7 +1,7 @@
 # BMED320: Methods in biomedical research
 _BMED320-imaging-mass-cytometry-ml_
 
-**Computational imaging and machine learning in biomedicine (BMED320)**
+**Computational imaging and machine learning in biomedicine**
 
 Our group is working at the Mohn Medical Imaging and Visualisation (MMIV) Centre on machine learning in medical imaging. We offer the opportunity to get into the methods and tools (e.g. Jupyter notebooks and Python programming) related to this research. See also the topics and teaching material at the virtual NordBioMedNet Summer School 2020: Computational Biomedicine - Imaging, machine learning and precision medicine (https://github.com/oercompbiomed/Seili-2020) that might interest you. 
 
