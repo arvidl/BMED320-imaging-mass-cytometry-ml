@@ -54,6 +54,7 @@ The key use case for imaging mass cytometry is for research questions that invol
 
 ### For references see [[here](refs)]
 
+--------------------------------------------------
 
 ## Imaging Flow Cytometry (IFC) at UiB
 
@@ -80,7 +81,7 @@ The metal tags can be defined within 1 Da spatial resolution in tissue and cell 
 
 
 
-## Workflow of imaging mass cytometry ([Bodenmiller lab](http://www.bodenmillerlab.com/research-2/imaging-mass-cytometry))
+# Workflow of imaging mass cytometry ([Bodenmiller lab](http://www.bodenmillerlab.com/research-2/imaging-mass-cytometry))
 Imaging mass cytometry couples immunohistochemical and immunocytochemical methods with high-resolution laser ablation to CyTOF mass cytometry. Currently, the method allows the simultaneous imaging of 44 proteins and protein modifications at subcellular resolution; with the availability of additional isotopes, measurement of over 100 markers will be possible.
 
 ![Bodenmiller lab](http://www.bodenmillerlab.org/wp-content/uploads/2014/09/NMETH-A19779B_GiesenEtAl_CyTOF_Imaging_Figure1.jpg)
