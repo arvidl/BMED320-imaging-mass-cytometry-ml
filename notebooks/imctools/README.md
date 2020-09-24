@@ -12,13 +12,15 @@ Imaging Mass Cytometry. Cell Metabolism 2019;29:755–768. [[PDF](../../refs/Dam
 (see: https://www.cell.com/cell-metabolism/fulltext/S1550-4131(18)30691-0)
 
 
-Data and code access: https://data.mendeley.com/datasets/cydmwsfztj/1  [5466 MB]
+Data and code access: https://data.mendeley.com/datasets/cydmwsfztj/2  [5466 MB] (version 2 published 09-04-2020)
 
 **Description**<br>
-Data related to the publication: "Imaging Mass Cytometry Analysis
-Sheds Light on Type 1 Diabetes Progression" (manuscript submitted to Cell Metabolism).
+Data related to the publication: "A Map of Human Type 1 Diabetes Progression by Imaging Mass Cytometry".
+
+Damond N, Engler S, Zanotelli VRT, Schapiro D, Wasserfall CH, Kusmartseva I, Nick HS, Thorel F, Herrera PL, Atkinson MA and Bodenmiller B. Cell Metab. 2019 Mar 5;29(3):755-768.e5. https://doi.org/10.1016/j.cmet.2018.11.014
 
 We used imaging mass cytometry to simultaneously image 37 biomarkers with single-cell and spatial resolution in pancreas sections from 12 human donors at different stages of type 1 diabetes.
+
 
 CODE:<br>
 - Python script for coordinate transformation
@@ -27,17 +29,23 @@ CODE:<br>
 DATA:<br>
 - Single-cell data
 - Islet-level data
-- Relationships between cells and islets
+- Cell type information
+- Cell relationships (cell-cell neighborhoods and cell-islet relationships)
+- Donors and image metadata.
+- Subset containing the data for 100 images from 3 donors
 
 IMAGES:<br>
-- Image stacks (37 channels) for all areas imaged (numbers indicate nPOD case IDs)
+- Image stacks (37 channels) for all donors (one .7z file per donor, numbers indicate nPOD case IDs)
+- Cell masks
 - Panel file with information related to antibodies and metal tags
-- Metadata file with patient information for all images
+- Metadata file linking donor information to images
+- Metadata file linking image stack slices and panel information
+- Subset containing 100 images from 3 donors
 
 
-https://data.mendeley.com/datasets/cydmwsfztj/1
+https://data.mendeley.com/datasets/cydmwsfztj/2
 
---> Cells.7z  (1.63 GB)
+--> Cells.7z  (2.0 GB)
 
 Q: How can I unpack .7z files via MacOS terminal?<br>
 A: You can install p7zip with Homebrew.
