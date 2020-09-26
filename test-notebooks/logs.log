@@ -522,3 +522,299 @@
                         tol=0.0001, verbose=0)]],
          verbose=False)
 2020-09-23 14:09:26,195:INFO:save_model() succesfully completed......................................
+2020-09-25 19:38:39,247:INFO:PyCaret Clustering Module
+2020-09-25 19:38:39,248:INFO:version 2.1
+2020-09-25 19:38:39,248:INFO:Initializing setup()
+2020-09-25 19:38:39,248:INFO:USI: b8a0
+2020-09-25 19:38:39,248:INFO:setup(data=(1026, 82), categorical_features=None, categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=['MouseID'], normalize=True,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-09-25 19:38:39,248:INFO:Checking environment
+2020-09-25 19:38:39,249:INFO:python_version: 3.7.8
+2020-09-25 19:38:39,249:INFO:python_build: ('default', 'Jul 31 2020 01:53:57')
+2020-09-25 19:38:39,249:INFO:machine: AMD64
+2020-09-25 19:38:39,249:INFO:platform: Windows-10-10.0.19041-SP0
+2020-09-25 19:38:39,270:INFO:Memory: svmem(total=17097428992, available=8300359680, percent=51.5, used=8797069312, free=8300359680)
+2020-09-25 19:38:39,270:INFO:Physical Core: 4
+2020-09-25 19:38:39,270:INFO:Logical Core: 8
+2020-09-25 19:38:39,270:INFO:Checking libraries
+2020-09-25 19:38:39,270:INFO:pd==1.1.2
+2020-09-25 19:38:39,270:INFO:numpy==1.19.1
+2020-09-25 19:38:40,511:INFO:sklearn==0.23.2
+2020-09-25 19:38:40,513:INFO:kmodes==0.10.2
+2020-09-25 19:38:41,724:INFO:mlflow==1.11.0
+2020-09-25 19:38:41,724:INFO:Checking Exceptions
+2020-09-25 19:38:41,725:INFO:Preloading libraries
+2020-09-25 19:38:41,799:INFO:Preparing display monitor
+2020-09-25 19:38:41,820:INFO:Importing libraries
+2020-09-25 19:38:41,820:INFO:Declaring global variables
+2020-09-25 19:38:41,820:INFO:Copying data for preprocessing
+2020-09-25 19:38:41,831:INFO:Declaring preprocessing parameters
+2020-09-25 19:38:41,831:INFO:Importing preprocessing module
+2020-09-25 19:38:42,957:INFO:Creating preprocessing pipeline
+2020-09-25 19:43:06,970:INFO:PyCaret Clustering Module
+2020-09-25 19:43:06,970:INFO:version 2.1
+2020-09-25 19:43:06,971:INFO:Initializing setup()
+2020-09-25 19:43:06,971:INFO:USI: cb49
+2020-09-25 19:43:06,971:INFO:setup(data=(1026, 82), categorical_features=None, categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=['MouseID'], normalize=True,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-09-25 19:43:06,971:INFO:Checking environment
+2020-09-25 19:43:06,971:INFO:python_version: 3.7.8
+2020-09-25 19:43:06,971:INFO:python_build: ('default', 'Jul 31 2020 01:53:57')
+2020-09-25 19:43:06,971:INFO:machine: AMD64
+2020-09-25 19:43:06,972:INFO:platform: Windows-10-10.0.19041-SP0
+2020-09-25 19:43:06,997:INFO:Memory: svmem(total=17097428992, available=8344780800, percent=51.2, used=8752648192, free=8344780800)
+2020-09-25 19:43:06,997:INFO:Physical Core: 4
+2020-09-25 19:43:06,997:INFO:Logical Core: 8
+2020-09-25 19:43:06,998:INFO:Checking libraries
+2020-09-25 19:43:06,998:INFO:pd==1.1.2
+2020-09-25 19:43:06,998:INFO:numpy==1.19.1
+2020-09-25 19:43:08,209:INFO:sklearn==0.23.2
+2020-09-25 19:43:08,211:INFO:kmodes==0.10.2
+2020-09-25 19:43:09,367:INFO:mlflow==1.11.0
+2020-09-25 19:43:09,367:INFO:Checking Exceptions
+2020-09-25 19:43:09,367:INFO:Preloading libraries
+2020-09-25 19:43:09,448:INFO:Preparing display monitor
+2020-09-25 19:43:09,475:INFO:Importing libraries
+2020-09-25 19:43:09,475:INFO:Declaring global variables
+2020-09-25 19:43:09,475:INFO:Copying data for preprocessing
+2020-09-25 19:43:09,484:INFO:Declaring preprocessing parameters
+2020-09-25 19:43:09,484:INFO:Importing preprocessing module
+2020-09-25 19:43:10,574:INFO:Creating preprocessing pipeline
+2020-09-25 19:43:29,459:INFO:Preprocessing pipeline created successfully
+2020-09-25 19:43:29,459:INFO:Creating grid variables
+2020-09-25 19:43:29,462:INFO:Creating global containers
+2020-09-25 19:43:29,845:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['MouseID'],
+                                      ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Cata...
+                ('group', Empty()),
+                ('scaling',
+                 Scaling_and_Power_transformation(function_to_apply='zscore',
+                                                  random_state_quantile=123,
+                                                  target='dummy_target')),
+                ('P_transform', Empty()), ('binn', Empty()),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-09-25 19:43:29,845:INFO:setup() succesfully completed......................................
+2020-09-25 19:43:38,114:INFO:Initializing create_model()
+2020-09-25 19:43:38,114:INFO:create_model(model=kmeans, num_clusters=None, ground_truth=None, verbose=True, system=True)
+2020-09-25 19:43:38,114:INFO:Checking exceptions
+2020-09-25 19:43:38,114:INFO:Preloading libraries
+2020-09-25 19:43:38,114:INFO:Setting num_cluster param
+2020-09-25 19:43:38,114:INFO:Preparing display monitor
+2020-09-25 19:43:38,137:INFO:Importing untrained model
+2020-09-25 19:43:38,138:INFO:K-Means Clustering Imported succesfully
+2020-09-25 19:43:38,143:INFO:Fitting Model
+2020-09-25 19:43:38,450:INFO:Evaluating Metrics
+2020-09-25 19:43:38,658:INFO:Creating Metrics dataframe
+2020-09-25 19:43:38,670:INFO:KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0)
+2020-09-25 19:43:38,670:INFO:create_models() succesfully completed......................................
+2020-09-25 19:43:43,708:INFO:Initializing create_model()
+2020-09-25 19:43:43,708:INFO:create_model(model=kmodes, num_clusters=6, ground_truth=None, verbose=True, system=True)
+2020-09-25 19:43:43,709:INFO:Checking exceptions
+2020-09-25 19:43:43,709:INFO:Preloading libraries
+2020-09-25 19:43:43,709:INFO:Setting num_cluster param
+2020-09-25 19:43:43,709:INFO:Preparing display monitor
+2020-09-25 19:43:43,731:INFO:Importing untrained model
+2020-09-25 19:43:43,735:INFO:K-Modes Clustering Imported succesfully
+2020-09-25 19:43:43,742:INFO:Fitting Model
+2020-09-25 19:43:47,681:INFO:Evaluating Metrics
+2020-09-25 19:43:47,847:INFO:Creating Metrics dataframe
+2020-09-25 19:43:47,859:INFO:KModes(cat_dissim=<function matching_dissim at 0x00000236CF3DEB88>, init='Cao',
+       max_iter=100, n_clusters=6, n_init=1, n_jobs=-1, random_state=123,
+       verbose=0)
+2020-09-25 19:43:47,859:INFO:create_models() succesfully completed......................................
+2020-09-25 19:43:51,649:INFO:Initializing assign_model()
+2020-09-25 19:43:51,650:INFO:assign_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), transformation=False, verbose=True)
+2020-09-25 19:43:51,650:INFO:Checking exceptions
+2020-09-25 19:43:51,651:INFO:Preloading libraries
+2020-09-25 19:43:51,651:INFO:Copying data
+2020-09-25 19:43:51,651:INFO:Preparing display monitor
+2020-09-25 19:43:51,694:INFO:Determining Trained Model
+2020-09-25 19:43:51,695:INFO:Trained Model : K-Means Clustering
+2020-09-25 19:43:51,696:INFO:(1026, 83)
+2020-09-25 19:43:51,697:INFO:assign_model() succesfully completed......................................
+2020-09-25 19:43:59,450:INFO:Initializing plot_model()
+2020-09-25 19:43:59,450:INFO:plot_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), plot=cluster, feature=None, label=False, save=False, system=True)
+2020-09-25 19:43:59,451:INFO:Checking exceptions
+2020-09-25 19:43:59,451:INFO:Importing libraries
+2020-09-25 19:44:00,493:INFO:plot type: cluster
+2020-09-25 19:44:00,494:INFO:SubProcess assign_model() called ==================================
+2020-09-25 19:44:00,495:INFO:Initializing assign_model()
+2020-09-25 19:44:00,495:INFO:assign_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), transformation=True, verbose=False)
+2020-09-25 19:44:00,495:INFO:Checking exceptions
+2020-09-25 19:44:00,495:INFO:Preloading libraries
+2020-09-25 19:44:00,495:INFO:Copying data
+2020-09-25 19:44:00,496:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-09-25 19:44:00,496:INFO:Preparing display monitor
+2020-09-25 19:44:00,511:INFO:Determining Trained Model
+2020-09-25 19:44:00,512:INFO:Trained Model : K-Means Clustering
+2020-09-25 19:44:00,512:INFO:(1026, 92)
+2020-09-25 19:44:00,512:INFO:assign_model() succesfully completed......................................
+2020-09-25 19:44:00,512:INFO:SubProcess assign_model() end ==================================
+2020-09-25 19:44:00,525:INFO:Fitting PCA()
+2020-09-25 19:44:00,653:INFO:Sorting dataframe
+2020-09-25 19:44:00,660:INFO:Rendering Visual
+2020-09-25 19:44:01,846:INFO:Visual Rendered Successfully
+2020-09-25 19:44:01,846:INFO:plot_model() succesfully completed......................................
+2020-09-25 19:44:08,950:INFO:Initializing plot_model()
+2020-09-25 19:44:08,951:INFO:plot_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), plot=elbow, feature=None, label=False, save=False, system=True)
+2020-09-25 19:44:08,951:INFO:Checking exceptions
+2020-09-25 19:44:08,951:INFO:Importing libraries
+2020-09-25 19:44:08,964:INFO:plot type: elbow
+2020-09-25 19:44:09,050:INFO:Fitting KElbowVisualizer()
+2020-09-25 19:44:12,363:INFO:Rendering Visual
+2020-09-25 19:44:12,957:INFO:Visual Rendered Successfully
+2020-09-25 19:44:12,957:INFO:plot_model() succesfully completed......................................
+2020-09-25 19:44:17,632:INFO:Initializing plot_model()
+2020-09-25 19:44:17,633:INFO:plot_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), plot=silhouette, feature=None, label=False, save=False, system=True)
+2020-09-25 19:44:17,633:INFO:Checking exceptions
+2020-09-25 19:44:17,634:INFO:Importing libraries
+2020-09-25 19:44:17,646:INFO:plot type: silhouette
+2020-09-25 19:44:17,647:INFO:Fitting SilhouetteVisualizer()
+2020-09-25 19:44:18,093:INFO:Rendering Visual
+2020-09-25 19:44:18,286:INFO:Visual Rendered Successfully
+2020-09-25 19:44:18,286:INFO:plot_model() succesfully completed......................................
+2020-09-25 19:44:22,545:INFO:Initializing plot_model()
+2020-09-25 19:44:22,546:INFO:plot_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), plot=distribution, feature=None, label=False, save=False, system=True)
+2020-09-25 19:44:22,547:INFO:Checking exceptions
+2020-09-25 19:44:22,547:INFO:Importing libraries
+2020-09-25 19:44:22,561:INFO:plot type: distribution
+2020-09-25 19:44:22,561:INFO:SubProcess assign_model() called ==================================
+2020-09-25 19:44:22,561:INFO:Initializing assign_model()
+2020-09-25 19:44:22,562:INFO:assign_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), transformation=False, verbose=False)
+2020-09-25 19:44:22,562:INFO:Checking exceptions
+2020-09-25 19:44:22,562:INFO:Preloading libraries
+2020-09-25 19:44:22,562:INFO:Copying data
+2020-09-25 19:44:22,563:INFO:Preparing display monitor
+2020-09-25 19:44:22,574:INFO:Determining Trained Model
+2020-09-25 19:44:22,575:INFO:Trained Model : K-Means Clustering
+2020-09-25 19:44:22,575:INFO:(1026, 83)
+2020-09-25 19:44:22,575:INFO:assign_model() succesfully completed......................................
+2020-09-25 19:44:22,575:INFO:SubProcess assign_model() end ==================================
+2020-09-25 19:44:22,575:INFO:Sorting dataframe
+2020-09-25 19:44:22,584:INFO:Rendering Visual
+2020-09-25 19:44:24,061:INFO:Visual Rendered Successfully
+2020-09-25 19:44:24,061:INFO:plot_model() succesfully completed......................................
+2020-09-25 19:44:28,788:INFO:Initializing plot_model()
+2020-09-25 19:44:28,789:INFO:plot_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), plot=distribution, feature=class, label=False, save=False, system=True)
+2020-09-25 19:44:28,789:INFO:Checking exceptions
+2020-09-25 19:44:28,790:INFO:Importing libraries
+2020-09-25 19:44:28,808:INFO:plot type: distribution
+2020-09-25 19:44:28,809:INFO:SubProcess assign_model() called ==================================
+2020-09-25 19:44:28,810:INFO:Initializing assign_model()
+2020-09-25 19:44:28,811:INFO:assign_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), transformation=False, verbose=False)
+2020-09-25 19:44:28,811:INFO:Checking exceptions
+2020-09-25 19:44:28,811:INFO:Preloading libraries
+2020-09-25 19:44:28,812:INFO:Copying data
+2020-09-25 19:44:28,812:INFO:Preparing display monitor
+2020-09-25 19:44:28,844:INFO:Determining Trained Model
+2020-09-25 19:44:28,845:INFO:Trained Model : K-Means Clustering
+2020-09-25 19:44:28,845:INFO:(1026, 83)
+2020-09-25 19:44:28,846:INFO:assign_model() succesfully completed......................................
+2020-09-25 19:44:28,846:INFO:SubProcess assign_model() end ==================================
+2020-09-25 19:44:28,846:INFO:Sorting dataframe
+2020-09-25 19:44:28,862:INFO:Rendering Visual
+2020-09-25 19:44:30,323:INFO:Visual Rendered Successfully
+2020-09-25 19:44:30,324:INFO:plot_model() succesfully completed......................................
+2020-09-25 19:44:32,398:INFO:Initializing plot_model()
+2020-09-25 19:44:32,400:INFO:plot_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), plot=distribution, feature=CaNA_N, label=False, save=False, system=True)
+2020-09-25 19:44:32,400:INFO:Checking exceptions
+2020-09-25 19:44:32,400:INFO:Importing libraries
+2020-09-25 19:44:32,412:INFO:plot type: distribution
+2020-09-25 19:44:32,412:INFO:SubProcess assign_model() called ==================================
+2020-09-25 19:44:32,412:INFO:Initializing assign_model()
+2020-09-25 19:44:32,413:INFO:assign_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), transformation=False, verbose=False)
+2020-09-25 19:44:32,413:INFO:Checking exceptions
+2020-09-25 19:44:32,413:INFO:Preloading libraries
+2020-09-25 19:44:32,413:INFO:Copying data
+2020-09-25 19:44:32,413:INFO:Preparing display monitor
+2020-09-25 19:44:32,432:INFO:Determining Trained Model
+2020-09-25 19:44:32,433:INFO:Trained Model : K-Means Clustering
+2020-09-25 19:44:32,433:INFO:(1026, 83)
+2020-09-25 19:44:32,433:INFO:assign_model() succesfully completed......................................
+2020-09-25 19:44:32,433:INFO:SubProcess assign_model() end ==================================
+2020-09-25 19:44:32,433:INFO:Sorting dataframe
+2020-09-25 19:44:32,445:INFO:Rendering Visual
+2020-09-25 19:44:33,830:INFO:Visual Rendered Successfully
+2020-09-25 19:44:33,830:INFO:plot_model() succesfully completed......................................
+2020-09-25 19:44:40,400:INFO:Initializing save_model()
+2020-09-25 19:44:40,400:INFO:save_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), model_name=Final_Kmeans_Model_20200923, verbose=True)
+2020-09-25 19:44:40,400:INFO:Adding model into prep_pipe
+2020-09-25 19:44:40,422:INFO:Final_Kmeans_Model_20200923.pkl saved in current working directory
+2020-09-25 19:44:40,430:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True,
+                                      features_todrop=['MouseID'],
+                                      ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Cata...
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty()),
+                ['trained model',
+                 KMeans(algorithm='auto', copy_x=True, init='k-means++',
+                        max_iter=300, n_clusters=4, n_init=10, n_jobs=-1,
+                        precompute_distances='deprecated', random_state=123,
+                        tol=0.0001, verbose=0)]],
+         verbose=False)
+2020-09-25 19:44:40,431:INFO:save_model() succesfully completed......................................
