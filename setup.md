@@ -34,7 +34,7 @@ The course code is hosted on the code-sharing platform GitHub (where you now are
 We recommend installing Python via the [Anaconda Distribution](https://www.anaconda.com/download). Be sure to use the "Python 3.8" version. We will use the Conda Package Management System within the Anaconda Distribution. From the [documentation](https://conda.io/docs):
 > Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux. Conda quickly installs, runs and updates packages and their dependencies. Conda easily creates, saves, loads and switches between environments on your local computer.
 
-After the installation run `python --version` in a terminal window (in "Anaconda Prompt" if you are using Windows). If the output show "Python 3.8" (and "Anaconda") you are good to go.
+After the installation run `python --version` in a terminal window (in "**Anaconda Powershell Prompt**" if you are using Windows). If the output show "Python 3.8" (and "Anaconda") you are good to go.
 
 
 ## Atom:
@@ -56,7 +56,7 @@ Cell image analysis software designed for biologists! (download from https://cel
 
 ## Install and test the course environment
 
-After you have successfully installed Anaconda, go through the following steps (if you are using Windows, be at the "Anaconda Prompt").
+After you have successfully installed Anaconda, go through the following steps (if you are using Windows, be at the "Anaconda Powershell Prompt").
 
 ### Install Git:
 ```bash
@@ -113,8 +113,7 @@ conda env update
 
 # Unix Shell
 
-Learners need to understand what files and directories are and what a working directory is. These concepts are covered in the
-[Unix Shell](http://swcarpentry.github.io/shell-novice) lessons (thanks to [Anne Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou), UiO)
+Learners need to understand what files and directories are and what a working directory is. The unix shell e.g. bash or zsh, is standard on Linux and Mac computers (cf. Terminal.app window), for Windows machines consider the Anaconda Power Shell. These concepts (e.g. `pwd`, `cd`, `ls`, `mkdir`, `cp`, `mv`, `cat`, `df`, `du`, `which`, `.`, `..`) are covered in the [Unix Shell](http://swcarpentry.github.io/shell-novice) lessons (thanks to [Anne Fouilloux](https://www.mn.uio.no/geo/english/people/adm/annefou), UiO)
 
 # Programming with Python
 
