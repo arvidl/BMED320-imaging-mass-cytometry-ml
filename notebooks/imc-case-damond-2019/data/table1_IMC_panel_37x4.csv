@@ -21,7 +21,7 @@ CD3e;CD3ɛ;T;152Sm
 CD4;CD4;Helper T;171Yb
 CD8a;CD8a;Cytotoxic T;165Ho
 CD20;CD20;B;149Sm
-CD68;CD68;Monocytes, macrophages;146Nd
+CD68;CD68;Monocytes macrophages;146Nd
 MPO;Myeloperoxidase;Neutrophils;147Sm
 FOXP3;Forkhead box P3;Regulatory T;163Dy
 CD38;CD38;Immune;142Nd
@@ -34,4 +34,4 @@ pRB1;Phospho-retinoblastoma;Cycling;175Yb
 cPARP1;Cleaved caspase 3 + cleaved poly (ADP-ribose) polymerase;Apoptotic;176Yb
 CA9;Carbonic anhydrase IX;Hypoxic;166Er
 H3;Histone H3;Nuclei;113In
-Ir191, Ir193;(DNA intercalators);DNA;191Ir, 193Ir
+Ir191 Ir193;(DNA intercalators);DNA;191Ir 193Ir
