@@ -26,6 +26,10 @@ Throughout the course you will work with notebooks that contain various material
 ## Get started - test your environment
 * [Python, Numpy, Pandas, Matplotlib, Cellpose, PyCaret and more](./test-notebooks): run through this notebook (`test-notebooks/1.0-test-cellpose.ipynb`) and  (`test-notebooks/2.0-test-pycaret.ipynb`) to check that your environment is OK.<br>
 
+# Fiji (recommended)
+Fiji - (Fiji Is Just) ImageJ - is an image processing package—a "batteries-included" distribution of ImageJ, bundling a lot of plugins which facilitate scientific image analysis. Download from https://imagej.net/Fiji.
+
+
 # Imaging Mass Cytometry (IMC)
 (adapted from https://visikol.com/imaging-mass-cytometry)
 
@@ -34,7 +38,7 @@ Throughout the course you will work with notebooks that contain various material
 Imaging mass cytometry or CyTOF ([Fluidigm](https://www.fluidigm.com) is a clever and powerful tool for leveraging mass spectroscopy to acquire imaging data from tissues with 40+ labels at the same time. The general premise of the technology is as follows:
 
 - Traditional tissue slices on microscope slides are labeled with antibodies to highlight specific proteins of interest but instead of the antibodies being conjugated to fluorophores like they are in fluorescence microscopy, they are conjugated to metals that normally would not appear in vivo (e.g. palladium).
-- After the tissues are labeled with these metal-conjugated antibodies, the slides are ablated with a laser in approximately 
+- After the tissues are labeled with these metal-conjugated antibodies, the slides are ablated with a laser in approximately
 <img src="https://render.githubusercontent.com/render/math?math=1 \mu m^2"> pixels. The tissue from these pixels and associated metals are then passed through a mass spec which can quantitatively assess the presence and quantity of each metal in a pixel. After a pixel is ablated, another adjacent pixel is ablated within a 1000 x 1000 pixel field of view until all of the metals from each pixel have been passed through the mass spec.
 - Using the mass spec data associated with each pixel, an image can then be created for each marker from the tissue.
 
@@ -67,7 +71,7 @@ cf. [Flow Cytometry Core Facility](https://www.uib.no/en/clin2/flow) at UiB
 
 An important feature of flow cytometry is that large numbers, for example thousands of particles per second, are analyzed and therefore provide a statistically significant picture of a specimen's physical and biochemical make-up.
 
-At the core facility you also have access to the **Mass cytometer** the the Helios Imaging Mass Cytometer (Fluidigm) at nominal resolution 
+At the core facility you also have access to the **Mass cytometer** the the Helios Imaging Mass Cytometer (Fluidigm) at nominal resolution
 of <img src="https://render.githubusercontent.com/render/math?math=1 \mu m^2">. This technology allows for the analysis of more than 42 parameters simultaneously on a single cell basis, to enable breakthrough discovery and comprehensive functional profiling applications.
 
 
