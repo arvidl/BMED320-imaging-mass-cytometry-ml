@@ -120,4 +120,4 @@ Workflow of imaging mass cytometry (Figure from Giesen et al., Nature Methods, 2
 - https://github.com/BodenmillerGroup/IntroDataAnalysis
 - http://www.cellpose.org (a generalist algorithm for cellular segmentation - [GitHub](https://github.com/MouseLand/cellpose))
 - https://github.com/computational-medicine/BMED360-2020 (BMED360 _In vivo imaging and physiologcal modelling_ @ UiB - see the `mri`, and the `machine-learning` modules)
-- https://github.com/oercompbiomed/Seili-2020 (NordBioMedNet (virtual) Summer School 2020: Computational Biomedicine - Imaging, machine learning and precision medicine
+- https://github.com/oercompbiomed/Seili-2020 (NordBioMedNet (virtual) Summer School 2020: Computational Biomedicine - Imaging, machine learning and precision medicine)
