@@ -112,11 +112,11 @@ Workflow of imaging mass cytometry (Figure from Giesen et al., Nature Methods, 2
 ## Machine Learning
 
 - PyCaret (https://pycaret.org) an open source, low-code machine learning library in Python that allows you to go from preparing your data to deploying your model within minutes in your choice of notebook environment.
-- scikit-learn (https://scikit-learn.org) an open source library for machine learning in Python (also used implicitly by the cell image analysis software [CellProfiler](https://cellprofiler.org)
+- scikit-learn (https://scikit-learn.org) an open source library for machine learning in Python (also used implicitly by the cell image analysis software [CellProfiler](https://cellprofiler.org))
 
 
 ## Hands-On Introductions
 
 - https://github.com/BodenmillerGroup/IntroDataAnalysis
 - http://www.cellpose.org (a generalist algorithm for cellular segmentation - [GitHub](https://github.com/MouseLand/cellpose))
-- https://github.com/computational-medicine/BMED360-2020 (In vivo imaging and physiologcal modelling - see the `mri`, and the `machine-learning` modules)
+- https://github.com/computational-medicine/BMED360-2020 (BMED360 _In vivo imaging and physiologcal modelling_ @ UiB - see the `mri`, and the `machine-learning` modules)
