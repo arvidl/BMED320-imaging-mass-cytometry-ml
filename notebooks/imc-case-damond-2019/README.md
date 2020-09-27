@@ -44,7 +44,7 @@ _Scale bars: 100 μm_
 |  E08 |  6126 |  E |   Tail |  1    |   Non-diabetic |
 
 ![BMED320_Damond_etal_2019_donor_6126_E08](./assets/BMED320_Damond_etal_2019_donor_6126_E08.png)
-
+(Made with [Fiji](https://imagej.net/Fiji) applied to ´E08_a0_full.tiff´)
 
 ![BMED320_Damond_etal_2019_Fig_S2A](./assets/BMED320_Damond_etal_2019_Fig_S2A.png)
 
@@ -69,7 +69,7 @@ All antibodies in the panel (**Table 1**) were initially tested by IF on lymphoi
 ![BMED320_Damond_etal_2019_Tab1_IMC_panel](./assets/BMED320_Damond_etal_2019_Tab1_IMC_panel.png)
 
 ### Tissue Staining
-Two sections per pancreas, from head, body, or tail, were stained with our full antibody panel (Table 1). Slides were incubated for 1 hr at 60 C in a dry oven, deparaffinized in fresh Xylol, and rehydrated through a graded alcohol series. Antigen retrieval was performed in a decloaking chamber (Medite) for 30 min at 95 C in Tris-EDTA, pH 9.2. After blocking in buffer containing 10% normal horse serum, slides were incubated overnight at 4C with three primary antibodies: rabbit anti-glucagon-156Gd, rabbit anti-synaptophysin-160Gd, and goat anti-Pdx1 (unconjugated). The next day, slides were incubated with anti-rabbit IgG-Alexa Fluor 488 and anti-Goat IgG-158Gd secondary antibodies for 1 hr at room temperature, followed by Hoechst dye counterstaining (5 min at room temperature). Slide scanner imaging was performed at this stage (see Selection of Areas of Interest below). Two successive overnight incubations at 4C were then performed for labeling with the remainder of primary antibodies (13 primary antibodies on the first night and 19 on the second night). Finally, slides were counterstained with iridium intercalator for 5 min at room temperature, quickly dipped in doubly distilled H2O, and immediately dried with pressurized air.
+Two sections per pancreas, from head, body, or tail, were stained with our full antibody panel (Table 1). Slides were incubated for 1 hr at 60 deg C in a dry oven, deparaffinized in fresh Xylol, and rehydrated through a graded alcohol series. Antigen retrieval was performed in a decloaking chamber (Medite) for 30 min at 95 deg C in Tris-EDTA, pH 9.2. After blocking in buffer containing 10% normal horse serum, slides were incubated overnight at 4 deg C with three primary antibodies: rabbit anti-glucagon-156Gd, rabbit anti-synaptophysin-160Gd, and goat anti-Pdx1 (unconjugated). The next day, slides were incubated with anti-rabbit IgG-Alexa Fluor 488 and anti-Goat IgG-158Gd secondary antibodies for 1 hr at room temperature, followed by Hoechst dye counterstaining (5 min at room temperature). Slide scanner imaging was performed at this stage (see Selection of Areas of Interest below). Two successive overnight incubations at 4C were then performed for labeling with the remainder of primary antibodies (13 primary antibodies on the first night and 19 on the second night). Finally, slides were counterstained with iridium intercalator for 5 min at room temperature, quickly dipped in doubly distilled H2O, and immediately dried with pressurized air.
 
 
 ### Selection of Areas of Interest
