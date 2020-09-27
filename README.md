@@ -31,10 +31,10 @@ Throughout the course you will work with notebooks that contain various material
 
 **INTRODUCTION**
 
-Imaging mass cytometry or CyTOF (Fluidigm) is a clever and powerful tool for leveraging mass spectroscopy to acquire imaging data from tissues with 40+ labels at the same time. The general premise of the technology is as follows:
+Imaging mass cytometry or CyTOF ([Fluidigm](https://www.fluidigm.com) is a clever and powerful tool for leveraging mass spectroscopy to acquire imaging data from tissues with 40+ labels at the same time. The general premise of the technology is as follows:
 
 - Traditional tissue slices on microscope slides are labeled with antibodies to highlight specific proteins of interest but instead of the antibodies being conjugated to fluorophores like they are in fluorescence microscopy, they are conjugated to metals that normally would not appear in vivo (e.g. palladium).
-- After the tissues are labeled with these metal-conjugated antibodies, the slides are ablated with a laser in approximately 1 um2 pixels. The tissue from these pixels and associated metals are then passed through a mass spec which can quantitatively assess the presence and quantity of each metal in a pixel. After a pixel is ablated, another adjacent pixel is ablated within a 1000 x 1000 pixel field of view until all of the metals from each pixel have been passed through the mass spec.
+- After the tissues are labeled with these metal-conjugated antibodies, the slides are ablated with a laser in approximately $1 \micro m^2$ pixels. The tissue from these pixels and associated metals are then passed through a mass spec which can quantitatively assess the presence and quantity of each metal in a pixel. After a pixel is ablated, another adjacent pixel is ablated within a 1000 x 1000 pixel field of view until all of the metals from each pixel have been passed through the mass spec.
 - Using the mass spec data associated with each pixel, an image can then be created for each marker from the tissue.
 
 
