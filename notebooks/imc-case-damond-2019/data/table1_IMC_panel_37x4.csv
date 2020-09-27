@@ -31,8 +31,7 @@ SMA;Smooth muscle actin;Stromal;115In
 KI-67;Ki-67;Proliferating;168Er
 pH3;Phospho-histone H3;Proliferating;170Er
 pRB1;Phospho-retinoblastoma;Cycling;175Yb
-cPARP1;"Cleaved caspase 3
-+ cleaved poly (ADP-ribose) polymerase";Apoptotic;176Yb
+cPARP1;Cleaved caspase 3 + cleaved poly (ADP-ribose) polymerase;Apoptotic;176Yb
 CA9;Carbonic anhydrase IX;Hypoxic;166Er
 H3;Histone H3;Nuclei;113In
 Ir191, Ir193;(DNA intercalators);DNA;191Ir, 193Ir
