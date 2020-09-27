@@ -99,7 +99,7 @@ Workflow of imaging mass cytometry (Figure from Giesen et al., Nature Methods, 2
 ![Image processing MCI](https://www.frontiersin.org/files/Articles/469030/fimmu-10-02657-HTML/image_m/fimmu-10-02657-g003.jpg)
 
 
-## IMC Segmentation Pipeline (Bodenmiller Group)
+## IMC Segmentation Pipelines (mainly from the Bodenmiller Group)
 
 - https://github.com/BodenmillerGroup/ImcSegmentationPipeline
 - https://github.com/BodenmillerGroup/imctools  (`pip install imctools==2.0.1`)
