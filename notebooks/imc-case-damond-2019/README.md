@@ -47,6 +47,12 @@ _Scale bars: 100 μm_
 
 (_Made with [Fiji](https://imagej.net/Fiji) applied to ´E08_a0_full.tiff´_)
 
+
+![BMED320_Damond_etal_2019_donor_6126_E08_6x6](./assets/BMED320_Damond_etal_2019_donor_6126_E08_6x6.png)
+
+(_Made with [this notebook](https://github.com/arvidl/BMED320-imaging-mass-cytometry-ml/blob/master/notebooks/imc-case-damond-2019/read-analyze-case-6126-E08.ipynb)_)
+
+
 ![BMED320_Damond_etal_2019_Fig_S2A](./assets/BMED320_Damond_etal_2019_Fig_S2A.png)
 
 
