@@ -31,6 +31,7 @@ dependencies:
   - imctools==2.0.1
   - mxnet-mkl
   - natsort
+  - nibabel
   - opencv-python
   - opencv-python-headless
   - pdpbox
