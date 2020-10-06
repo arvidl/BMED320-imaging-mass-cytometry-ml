@@ -1,0 +1,481 @@
+2020-10-05 22:49:27,890:INFO:PyCaret Clustering Module
+2020-10-05 22:49:27,890:INFO:version 2.1
+2020-10-05 22:49:27,890:INFO:Initializing setup()
+2020-10-05 22:49:27,890:INFO:USI: 7f96
+2020-10-05 22:49:27,890:INFO:setup(data=(300510, 3), categorical_features=None, categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=[], normalize=True,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-10-05 22:49:27,890:INFO:Checking environment
+2020-10-05 22:49:27,890:INFO:python_version: 3.7.9
+2020-10-05 22:49:27,890:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-05 22:49:27,890:INFO:machine: x86_64
+2020-10-05 22:49:27,917:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-05 22:49:27,918:INFO:Memory: svmem(total=68719476736, available=47228297216, percent=31.3, used=21487337472, free=30239195136, active=16991866880, inactive=12405272576, wired=4495470592)
+2020-10-05 22:49:27,918:INFO:Physical Core: 8
+2020-10-05 22:49:27,918:INFO:Logical Core: 16
+2020-10-05 22:49:27,918:INFO:Checking libraries
+2020-10-05 22:49:27,918:INFO:pd==1.1.1
+2020-10-05 22:49:27,918:INFO:numpy==1.19.1
+2020-10-05 22:49:27,918:INFO:sklearn==0.23.2
+2020-10-05 22:49:27,921:INFO:kmodes==0.10.2
+2020-10-05 22:49:28,715:INFO:mlflow==1.11.0
+2020-10-05 22:49:28,715:INFO:Checking Exceptions
+2020-10-05 22:49:28,715:INFO:Preloading libraries
+2020-10-05 22:49:28,715:INFO:Preparing display monitor
+2020-10-05 22:49:28,727:INFO:Importing libraries
+2020-10-05 22:49:28,727:INFO:Declaring global variables
+2020-10-05 22:49:28,727:INFO:Copying data for preprocessing
+2020-10-05 22:49:28,739:INFO:Declaring preprocessing parameters
+2020-10-05 22:49:28,739:INFO:Importing preprocessing module
+2020-10-05 22:49:30,251:INFO:Creating preprocessing pipeline
+2020-10-05 22:51:46,734:INFO:PyCaret Clustering Module
+2020-10-05 22:51:46,734:INFO:version 2.1
+2020-10-05 22:51:46,734:INFO:Initializing setup()
+2020-10-05 22:51:46,734:INFO:USI: 9df2
+2020-10-05 22:51:46,734:INFO:setup(data=(300510, 3), categorical_features=None, categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=[], normalize=True,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-10-05 22:51:46,734:INFO:Checking environment
+2020-10-05 22:51:46,734:INFO:python_version: 3.7.9
+2020-10-05 22:51:46,734:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-05 22:51:46,734:INFO:machine: x86_64
+2020-10-05 22:51:46,744:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-05 22:51:46,745:INFO:Memory: svmem(total=68719476736, available=47323574272, percent=31.1, used=21390962688, free=30421733376, active=16886308864, inactive=12264677376, wired=4504653824)
+2020-10-05 22:51:46,745:INFO:Physical Core: 8
+2020-10-05 22:51:46,745:INFO:Logical Core: 16
+2020-10-05 22:51:46,745:INFO:Checking libraries
+2020-10-05 22:51:46,745:INFO:pd==1.1.1
+2020-10-05 22:51:46,745:INFO:numpy==1.19.1
+2020-10-05 22:51:46,745:INFO:sklearn==0.23.2
+2020-10-05 22:51:46,746:INFO:kmodes==0.10.2
+2020-10-05 22:51:47,142:INFO:mlflow==1.11.0
+2020-10-05 22:51:47,142:INFO:Checking Exceptions
+2020-10-05 22:51:47,142:INFO:Preloading libraries
+2020-10-05 22:51:47,142:INFO:Preparing display monitor
+2020-10-05 22:51:47,152:INFO:Importing libraries
+2020-10-05 22:51:47,152:INFO:Declaring global variables
+2020-10-05 22:51:47,153:INFO:Copying data for preprocessing
+2020-10-05 22:51:47,165:INFO:Declaring preprocessing parameters
+2020-10-05 22:51:47,165:INFO:Importing preprocessing module
+2020-10-05 22:51:47,527:INFO:Creating preprocessing pipeline
+2020-10-05 22:51:51,261:INFO:Preprocessing pipeline created successfully
+2020-10-05 22:51:51,261:INFO:Creating grid variables
+2020-10-05 22:51:51,263:INFO:Creating global containers
+2020-10-05 22:51:51,333:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_L...
+                ('group', Empty()),
+                ('scaling',
+                 Scaling_and_Power_transformation(function_to_apply='zscore',
+                                                  random_state_quantile=123,
+                                                  target='dummy_target')),
+                ('P_transform', Empty()), ('binn', Empty()),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-05 22:51:51,333:INFO:setup() succesfully completed......................................
+2020-10-05 22:52:20,315:INFO:Initializing create_model()
+2020-10-05 22:52:20,315:INFO:create_model(model=kmeans, num_clusters=None, ground_truth=None, verbose=True, system=True)
+2020-10-05 22:52:20,315:INFO:Checking exceptions
+2020-10-05 22:52:20,315:INFO:Preloading libraries
+2020-10-05 22:52:20,315:INFO:Setting num_cluster param
+2020-10-05 22:52:20,316:INFO:Preparing display monitor
+2020-10-05 22:52:20,328:INFO:Importing untrained model
+2020-10-05 22:52:20,329:INFO:K-Means Clustering Imported succesfully
+2020-10-05 22:52:20,333:INFO:Fitting Model
+2020-10-05 22:52:22,480:INFO:Evaluating Metrics
+2020-10-05 23:04:50,897:INFO:Creating Metrics dataframe
+2020-10-05 23:04:50,902:INFO:KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0)
+2020-10-05 23:04:50,902:INFO:create_models() succesfully completed......................................
+2020-10-05 23:27:49,657:INFO:Initializing create_model()
+2020-10-05 23:27:49,658:INFO:create_model(model=kmodes, num_clusters=6, ground_truth=None, verbose=True, system=True)
+2020-10-05 23:27:49,658:INFO:Checking exceptions
+2020-10-05 23:27:49,658:INFO:Preloading libraries
+2020-10-05 23:27:49,658:INFO:Setting num_cluster param
+2020-10-05 23:27:49,658:INFO:Preparing display monitor
+2020-10-05 23:27:49,668:INFO:Importing untrained model
+2020-10-05 23:27:49,672:INFO:K-Modes Clustering Imported succesfully
+2020-10-05 23:27:49,676:INFO:Fitting Model
+2020-10-05 23:28:14,196:INFO:Evaluating Metrics
+2020-10-05 23:32:54,139:WARNING:Cannot calculate Silhouette
+2020-10-05 23:32:54,271:INFO:Creating Metrics dataframe
+2020-10-05 23:32:54,277:INFO:KModes(cat_dissim=<function matching_dissim at 0x7fb5e0d2b5f0>, init='Cao',
+       max_iter=100, n_clusters=6, n_init=1, n_jobs=-1, random_state=123,
+       verbose=0)
+2020-10-05 23:32:54,277:INFO:create_models() succesfully completed......................................
+2020-10-05 23:34:22,993:INFO:Initializing assign_model()
+2020-10-05 23:34:22,994:INFO:assign_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), transformation=False, verbose=True)
+2020-10-05 23:34:22,994:INFO:Checking exceptions
+2020-10-05 23:34:22,994:INFO:Preloading libraries
+2020-10-05 23:34:22,994:INFO:Copying data
+2020-10-05 23:34:22,995:INFO:Preparing display monitor
+2020-10-05 23:34:23,230:INFO:Determining Trained Model
+2020-10-05 23:34:23,231:INFO:Trained Model : K-Means Clustering
+2020-10-05 23:34:23,231:INFO:(300510, 4)
+2020-10-05 23:34:23,231:INFO:assign_model() succesfully completed......................................
+2020-10-05 23:35:15,468:INFO:Initializing plot_model()
+2020-10-05 23:35:15,468:INFO:plot_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), plot=cluster, feature=None, label=False, save=False, system=True)
+2020-10-05 23:35:15,469:INFO:Checking exceptions
+2020-10-05 23:35:15,469:INFO:Importing libraries
+2020-10-05 23:35:15,861:INFO:plot type: cluster
+2020-10-05 23:35:15,861:INFO:SubProcess assign_model() called ==================================
+2020-10-05 23:35:15,861:INFO:Initializing assign_model()
+2020-10-05 23:35:15,861:INFO:assign_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), transformation=True, verbose=False)
+2020-10-05 23:35:15,862:INFO:Checking exceptions
+2020-10-05 23:35:15,862:INFO:Preloading libraries
+2020-10-05 23:35:15,862:INFO:Copying data
+2020-10-05 23:35:15,864:INFO:Transformation param set to True. Assigned clusters are attached on transformed dataset.
+2020-10-05 23:35:15,864:INFO:Preparing display monitor
+2020-10-05 23:35:16,062:INFO:Determining Trained Model
+2020-10-05 23:35:16,062:INFO:Trained Model : K-Means Clustering
+2020-10-05 23:35:16,062:INFO:(300510, 4)
+2020-10-05 23:35:16,062:INFO:assign_model() succesfully completed......................................
+2020-10-05 23:35:16,064:INFO:SubProcess assign_model() end ==================================
+2020-10-05 23:35:16,077:INFO:Fitting PCA()
+2020-10-05 23:35:16,219:INFO:Sorting dataframe
+2020-10-05 23:35:16,400:INFO:Rendering Visual
+2020-10-05 23:35:23,805:INFO:Visual Rendered Successfully
+2020-10-05 23:35:23,805:INFO:plot_model() succesfully completed......................................
+2020-10-05 23:36:01,345:INFO:Initializing plot_model()
+2020-10-05 23:36:01,345:INFO:plot_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), plot=elbow, feature=None, label=False, save=False, system=True)
+2020-10-05 23:36:01,346:INFO:Checking exceptions
+2020-10-05 23:36:01,346:INFO:Importing libraries
+2020-10-05 23:36:01,349:INFO:plot type: elbow
+2020-10-05 23:36:01,390:INFO:Fitting KElbowVisualizer()
+2020-10-05 23:36:40,901:INFO:Rendering Visual
+2020-10-05 23:36:41,276:INFO:Visual Rendered Successfully
+2020-10-05 23:36:41,276:INFO:plot_model() succesfully completed......................................
+2020-10-05 23:37:23,413:INFO:Initializing plot_model()
+2020-10-05 23:37:23,413:INFO:plot_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), plot=silhouette, feature=None, label=False, save=False, system=True)
+2020-10-05 23:37:23,414:INFO:Checking exceptions
+2020-10-05 23:37:23,414:INFO:Importing libraries
+2020-10-05 23:37:23,417:INFO:plot type: silhouette
+2020-10-05 23:37:23,417:INFO:Fitting SilhouetteVisualizer()
+2020-10-06 00:07:08,475:INFO:PyCaret Clustering Module
+2020-10-06 00:07:08,476:INFO:version 2.1
+2020-10-06 00:07:08,476:INFO:Initializing setup()
+2020-10-06 00:07:08,476:INFO:USI: 212f
+2020-10-06 00:07:08,476:INFO:setup(data=(300510, 3), categorical_features=None, categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=None, numeric_imputation=mean, date_features=None, ignore_features=[], normalize=True,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-10-06 00:07:08,476:INFO:Checking environment
+2020-10-06 00:07:08,476:INFO:python_version: 3.7.9
+2020-10-06 00:07:08,476:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-06 00:07:08,476:INFO:machine: x86_64
+2020-10-06 00:07:08,493:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-06 00:07:08,493:INFO:Memory: svmem(total=68719476736, available=45398728704, percent=33.9, used=23316496384, free=26072989696, active=18792235008, inactive=14635130880, wired=4524261376)
+2020-10-06 00:07:08,493:INFO:Physical Core: 8
+2020-10-06 00:07:08,494:INFO:Logical Core: 16
+2020-10-06 00:07:08,494:INFO:Checking libraries
+2020-10-06 00:07:08,494:INFO:pd==1.1.1
+2020-10-06 00:07:08,494:INFO:numpy==1.19.1
+2020-10-06 00:07:08,494:INFO:sklearn==0.23.2
+2020-10-06 00:07:08,494:INFO:kmodes==0.10.2
+2020-10-06 00:07:08,899:INFO:mlflow==1.11.0
+2020-10-06 00:07:08,900:INFO:Checking Exceptions
+2020-10-06 00:07:08,900:INFO:Preloading libraries
+2020-10-06 00:07:08,900:INFO:Preparing display monitor
+2020-10-06 00:07:08,911:INFO:Importing libraries
+2020-10-06 00:07:08,911:INFO:Declaring global variables
+2020-10-06 00:07:08,911:INFO:Copying data for preprocessing
+2020-10-06 00:07:08,923:INFO:Declaring preprocessing parameters
+2020-10-06 00:07:08,923:INFO:Importing preprocessing module
+2020-10-06 00:07:09,551:INFO:Creating preprocessing pipeline
+2020-10-06 00:07:13,645:INFO:Preprocessing pipeline created successfully
+2020-10-06 00:07:13,645:INFO:Creating grid variables
+2020-10-06 00:07:13,647:INFO:Creating global containers
+2020-10-06 00:07:13,711:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=[],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_L...
+                ('group', Empty()),
+                ('scaling',
+                 Scaling_and_Power_transformation(function_to_apply='zscore',
+                                                  random_state_quantile=123,
+                                                  target='dummy_target')),
+                ('P_transform', Empty()), ('binn', Empty()),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-06 00:07:13,711:INFO:setup() succesfully completed......................................
+2020-10-06 00:07:30,183:INFO:Initializing create_model()
+2020-10-06 00:07:30,183:INFO:create_model(model=kmeans, num_clusters=None, ground_truth=None, verbose=True, system=True)
+2020-10-06 00:07:30,183:INFO:Checking exceptions
+2020-10-06 00:07:30,183:INFO:Preloading libraries
+2020-10-06 00:07:30,183:INFO:Setting num_cluster param
+2020-10-06 00:07:30,183:INFO:Preparing display monitor
+2020-10-06 00:07:30,196:INFO:Importing untrained model
+2020-10-06 00:07:30,196:INFO:K-Means Clustering Imported succesfully
+2020-10-06 00:07:30,201:INFO:Fitting Model
+2020-10-06 00:07:32,335:INFO:Evaluating Metrics
+2020-10-06 00:14:36,835:WARNING:Cannot calculate Silhouette
+2020-10-06 00:14:36,942:INFO:Creating Metrics dataframe
+2020-10-06 00:14:36,947:INFO:KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0)
+2020-10-06 00:14:36,947:INFO:create_models() succesfully completed......................................
+2020-10-06 00:16:33,728:INFO:PyCaret Clustering Module
+2020-10-06 00:16:33,728:INFO:version 2.1
+2020-10-06 00:16:33,729:INFO:Initializing setup()
+2020-10-06 00:16:33,729:INFO:USI: e5cb
+2020-10-06 00:16:33,729:INFO:setup(data=(300510, 3), categorical_features=None, categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=['chn01', 'chn36', 'chn37'], numeric_imputation=mean, date_features=None, ignore_features=None, normalize=True,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-10-06 00:16:33,729:INFO:Checking environment
+2020-10-06 00:16:33,729:INFO:python_version: 3.7.9
+2020-10-06 00:16:33,729:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-06 00:16:33,729:INFO:machine: x86_64
+2020-10-06 00:16:33,729:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-06 00:16:33,729:INFO:Memory: svmem(total=68719476736, available=45064093696, percent=34.4, used=23650750464, free=25443721216, active=18958876672, inactive=14935764992, wired=4691873792)
+2020-10-06 00:16:33,729:INFO:Physical Core: 8
+2020-10-06 00:16:33,729:INFO:Logical Core: 16
+2020-10-06 00:16:33,729:INFO:Checking libraries
+2020-10-06 00:16:33,729:INFO:pd==1.1.1
+2020-10-06 00:16:33,729:INFO:numpy==1.19.1
+2020-10-06 00:16:33,729:INFO:sklearn==0.23.2
+2020-10-06 00:16:33,730:INFO:kmodes==0.10.2
+2020-10-06 00:16:33,730:INFO:mlflow==1.11.0
+2020-10-06 00:16:33,730:INFO:Checking Exceptions
+2020-10-06 00:16:33,730:INFO:Preloading libraries
+2020-10-06 00:16:33,730:INFO:Preparing display monitor
+2020-10-06 00:16:33,741:INFO:Importing libraries
+2020-10-06 00:16:33,742:INFO:Declaring global variables
+2020-10-06 00:16:33,742:INFO:Copying data for preprocessing
+2020-10-06 00:16:33,749:INFO:Declaring preprocessing parameters
+2020-10-06 00:16:33,750:INFO:Importing preprocessing module
+2020-10-06 00:16:33,750:INFO:Creating preprocessing pipeline
+2020-10-06 00:16:44,502:INFO:Preprocessing pipeline created successfully
+2020-10-06 00:16:44,502:INFO:Creating grid variables
+2020-10-06 00:16:44,504:INFO:Creating global containers
+2020-10-06 00:16:44,524:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=['chn01', 'chn36',
+                                                          'chn37'],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_lev...
+                ('group', Empty()),
+                ('scaling',
+                 Scaling_and_Power_transformation(function_to_apply='zscore',
+                                                  random_state_quantile=123,
+                                                  target='dummy_target')),
+                ('P_transform', Empty()), ('binn', Empty()),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-06 00:16:44,524:INFO:setup() succesfully completed......................................
+2020-10-06 00:18:17,078:INFO:PyCaret Clustering Module
+2020-10-06 00:18:17,078:INFO:version 2.1
+2020-10-06 00:18:17,078:INFO:Initializing setup()
+2020-10-06 00:18:17,078:INFO:USI: b6cf
+2020-10-06 00:18:17,078:INFO:setup(data=(300510, 3), categorical_features=[], categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=['chn01', 'chn36', 'chn37'], numeric_imputation=mean, date_features=None, ignore_features=None, normalize=True,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-10-06 00:18:17,078:INFO:Checking environment
+2020-10-06 00:18:17,078:INFO:python_version: 3.7.9
+2020-10-06 00:18:17,078:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-06 00:18:17,078:INFO:machine: x86_64
+2020-10-06 00:18:17,078:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-06 00:18:17,078:INFO:Memory: svmem(total=68719476736, available=44605956096, percent=35.1, used=24109199360, free=24865931264, active=19570520064, inactive=14957977600, wired=4538679296)
+2020-10-06 00:18:17,079:INFO:Physical Core: 8
+2020-10-06 00:18:17,079:INFO:Logical Core: 16
+2020-10-06 00:18:17,079:INFO:Checking libraries
+2020-10-06 00:18:17,079:INFO:pd==1.1.1
+2020-10-06 00:18:17,079:INFO:numpy==1.19.1
+2020-10-06 00:18:17,079:INFO:sklearn==0.23.2
+2020-10-06 00:18:17,079:INFO:kmodes==0.10.2
+2020-10-06 00:18:17,079:INFO:mlflow==1.11.0
+2020-10-06 00:18:17,079:INFO:Checking Exceptions
+2020-10-06 00:18:17,079:INFO:Preloading libraries
+2020-10-06 00:18:17,079:INFO:Preparing display monitor
+2020-10-06 00:18:17,091:INFO:Importing libraries
+2020-10-06 00:18:17,091:INFO:Declaring global variables
+2020-10-06 00:18:17,092:INFO:Copying data for preprocessing
+2020-10-06 00:18:17,100:INFO:Declaring preprocessing parameters
+2020-10-06 00:18:17,100:INFO:Importing preprocessing module
+2020-10-06 00:18:17,100:INFO:Creating preprocessing pipeline
+2020-10-06 00:18:24,310:INFO:Preprocessing pipeline created successfully
+2020-10-06 00:18:24,310:INFO:Creating grid variables
+2020-10-06 00:18:24,312:INFO:Creating global containers
+2020-10-06 00:18:24,332:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=['chn01', 'chn36',
+                                                          'chn37'],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_lev...
+                ('group', Empty()),
+                ('scaling',
+                 Scaling_and_Power_transformation(function_to_apply='zscore',
+                                                  random_state_quantile=123,
+                                                  target='dummy_target')),
+                ('P_transform', Empty()), ('binn', Empty()),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-06 00:18:24,332:INFO:setup() succesfully completed......................................
+2020-10-06 00:21:22,350:INFO:PyCaret Clustering Module
+2020-10-06 00:21:22,350:INFO:version 2.1
+2020-10-06 00:21:22,350:INFO:Initializing setup()
+2020-10-06 00:21:22,350:INFO:USI: a717
+2020-10-06 00:21:22,350:INFO:setup(data=(300510, 3), categorical_features=None, categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=['chn01', 'chn36', 'chn37'], numeric_imputation=mean, date_features=None, ignore_features=None, normalize=True,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-10-06 00:21:22,350:INFO:Checking environment
+2020-10-06 00:21:22,350:INFO:python_version: 3.7.9
+2020-10-06 00:21:22,350:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-06 00:21:22,350:INFO:machine: x86_64
+2020-10-06 00:21:22,350:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-06 00:21:22,350:INFO:Memory: svmem(total=68719476736, available=44827295744, percent=34.8, used=23887835136, free=25126584320, active=19197325312, inactive=14903508992, wired=4690509824)
+2020-10-06 00:21:22,350:INFO:Physical Core: 8
+2020-10-06 00:21:22,351:INFO:Logical Core: 16
+2020-10-06 00:21:22,351:INFO:Checking libraries
+2020-10-06 00:21:22,351:INFO:pd==1.1.1
+2020-10-06 00:21:22,351:INFO:numpy==1.19.1
+2020-10-06 00:21:22,351:INFO:sklearn==0.23.2
+2020-10-06 00:21:22,351:INFO:kmodes==0.10.2
+2020-10-06 00:21:22,351:INFO:mlflow==1.11.0
+2020-10-06 00:21:22,351:INFO:Checking Exceptions
+2020-10-06 00:21:22,351:INFO:Preloading libraries
+2020-10-06 00:21:22,351:INFO:Preparing display monitor
+2020-10-06 00:21:22,363:INFO:Importing libraries
+2020-10-06 00:21:22,363:INFO:Declaring global variables
+2020-10-06 00:21:22,363:INFO:Copying data for preprocessing
+2020-10-06 00:21:22,372:INFO:Declaring preprocessing parameters
+2020-10-06 00:21:22,372:INFO:Importing preprocessing module
+2020-10-06 00:21:22,373:INFO:Creating preprocessing pipeline
+2020-10-06 00:21:24,267:INFO:Preprocessing pipeline created successfully
+2020-10-06 00:21:24,267:INFO:Creating grid variables
+2020-10-06 00:21:24,269:INFO:Creating global containers
+2020-10-06 00:21:24,288:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=['chn01', 'chn36',
+                                                          'chn37'],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_lev...
+                ('group', Empty()),
+                ('scaling',
+                 Scaling_and_Power_transformation(function_to_apply='zscore',
+                                                  random_state_quantile=123,
+                                                  target='dummy_target')),
+                ('P_transform', Empty()), ('binn', Empty()),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-06 00:21:24,288:INFO:setup() succesfully completed......................................
+2020-10-06 00:24:42,966:INFO:Initializing create_model()
+2020-10-06 00:24:42,966:INFO:create_model(model=kmeans, num_clusters=None, ground_truth=None, verbose=True, system=True)
+2020-10-06 00:24:42,967:INFO:Checking exceptions
+2020-10-06 00:24:42,967:INFO:Preloading libraries
+2020-10-06 00:24:42,967:INFO:Setting num_cluster param
+2020-10-06 00:24:42,967:INFO:Preparing display monitor
+2020-10-06 00:24:42,979:INFO:Importing untrained model
+2020-10-06 00:24:42,979:INFO:K-Means Clustering Imported succesfully
+2020-10-06 00:24:42,984:INFO:Fitting Model
+2020-10-06 00:24:45,064:INFO:Evaluating Metrics
+2020-10-06 00:36:54,912:INFO:Creating Metrics dataframe
+2020-10-06 00:36:54,916:INFO:KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0)
+2020-10-06 00:36:54,917:INFO:create_models() succesfully completed......................................
+2020-10-06 00:37:11,367:INFO:Initializing assign_model()
+2020-10-06 00:37:11,367:INFO:assign_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), transformation=False, verbose=True)
+2020-10-06 00:37:11,368:INFO:Checking exceptions
+2020-10-06 00:37:11,368:INFO:Preloading libraries
+2020-10-06 00:37:11,368:INFO:Copying data
+2020-10-06 00:37:11,370:INFO:Preparing display monitor
+2020-10-06 00:37:11,585:INFO:Determining Trained Model
+2020-10-06 00:37:11,585:INFO:Trained Model : K-Means Clustering
+2020-10-06 00:37:11,586:INFO:(300510, 4)
+2020-10-06 00:37:11,586:INFO:assign_model() succesfully completed......................................
