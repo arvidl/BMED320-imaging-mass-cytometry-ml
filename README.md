@@ -135,3 +135,34 @@ Workflow of imaging mass cytometry (Figure from Giesen et al., Nature Methods, 2
 - https://github.com/computational-medicine/BMED360-2020 (BMED360 _In vivo imaging and physiologcal modelling_ @ UiB - see the `mri`, and the `machine-learning` modules)
 - https://github.com/oercompbiomed/Seili-2020 (NordBioMedNet (virtual) Summer School 2020: Computational Biomedicine - Imaging, machine learning and precision medicine)
 - https://sebastianraschka.com/blog/2020/numpy-intro.html Scientific Computing in Python: Introduction to NumPy and Matplotlib - Including Video Tutorials (see also https://github.com/rasbt/stat451-machine-learning-fs20)
+
+--------------------------------------
+
+## Other advanced microscopy options at UiB
+
+
+#### New instrument for 3D EM and correlative microscopy arrived at Elmilab (Oct 6th, 2020)
+A new **Zeiss Gemini 450** field-emission scanning electron microscope is currently being installed at [Elmilab](https://www.uib.no/en/elmi) at the MatNat faculty. The main applications are high-throughput imaging of tissue sections (3D EM) and correlative light and electron microscopy (CLEM).
+
+The design of the electron column, the detectors and the implemented tools for automation allow for imaging of large areas and large series of sections at high speeds. The images look like images obtained in standard transmission electron microscopy and have a **resolution down to 1nm**.
+
+The sections can be mounted on grids as they are used in standard transmission electron microscopy or on conductive substrates like silicon wafers or coated glass slides. This eases sample preparation, and it makes the instrument an excellent tool for correlative light and electron microscopic studies, where you image a sample first with LM and than with EM.
+
+Possible applications range from **3D-analysis of cells**, tissues, and organs to clinical diagnostics and pathology, the **reconstruction of neural circuits and connectomics**, and the visualization of standard light microscopic markers on the EM level. This way, data on protein or gene function can be put into the context of cellular ultrastructure in molecular biological and medical sciences.
+
+The instrument shall be available for UiB users from early next year. From then, we aim to provide dedicated user training, assistance in project planning, and on request, full service of EM sample preparation, imaging, and relevant image processing. We will keep you updated.
+
+You are welcome to contact us in advance if you consider including EM work in your next grant application.
+
+The Elmilab Team
+-- 
+Harald Hausen
+Sars International Centre for Marine Molecular Biology
+University of Bergen
+Thormøhlens gt. 55
+Postboks 7800
+5020 Bergen
+Norway
+
+fon: +47 55 58 43 03
+e-mail: harald.hausen@uib.no
