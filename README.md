@@ -142,7 +142,7 @@ Workflow of imaging mass cytometry (Figure from Giesen et al., Nature Methods, 2
 
 
 #### New instrument for 3D EM and correlative microscopy arrived at Elmilab (Oct 6th, 2020)
-A new **Zeiss Gemini 450** field-emission scanning electron microscope is currently being installed at [Elmilab](https://www.uib.no/en/elmi) at the MatNat faculty. The main applications are high-throughput imaging of tissue sections (3D EM) and correlative light and electron microscopy (CLEM).
+A new **[Zeiss Gemini 450](https://www.zeiss.com/microscopy/int/products/scanning-electron-microscopes/geminisem.html)** field-emission scanning electron microscope is currently being installed at [Elmilab](https://www.uib.no/en/elmi) at the MatNat faculty. The main applications are high-throughput imaging of tissue sections (3D EM) and correlative light and electron microscopy (CLEM).
 
 The design of the electron column, the detectors and the implemented tools for automation allow for imaging of large areas and large series of sections at high speeds. The images look like images obtained in standard transmission electron microscopy and have a **resolution down to 1nm**.
 
