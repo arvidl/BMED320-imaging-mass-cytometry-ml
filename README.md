@@ -138,7 +138,7 @@ Workflow of imaging mass cytometry (Figure from Giesen et al., Nature Methods, 2
 
 --------------------------------------
 
-## Other advanced microscopy options at UiB
+## Other advanced microscopic imaging options at UiB
 
 
 #### New instrument for 3D EM and correlative microscopy arrived at Elmilab (Oct 6th, 2020)
