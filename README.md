@@ -155,7 +155,7 @@ The instrument shall be available for UiB users from early next year. From then,
 You are welcome to contact us in advance if you consider including EM work in your next grant application.
 
 The Elmilab Team
--- 
+```
 Harald Hausen
 Sars International Centre for Marine Molecular Biology
 University of Bergen
@@ -166,3 +166,4 @@ Norway
 
 fon: +47 55 58 43 03
 e-mail: harald.hausen@uib.no
+```
