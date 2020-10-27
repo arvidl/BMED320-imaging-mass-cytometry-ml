@@ -479,3 +479,93 @@
 2020-10-06 00:37:11,585:INFO:Trained Model : K-Means Clustering
 2020-10-06 00:37:11,586:INFO:(300510, 4)
 2020-10-06 00:37:11,586:INFO:assign_model() succesfully completed......................................
+2020-10-27 17:00:44,316:INFO:PyCaret Clustering Module
+2020-10-27 17:00:44,317:INFO:version 2.1
+2020-10-27 17:00:44,317:INFO:Initializing setup()
+2020-10-27 17:00:44,317:INFO:USI: 6141
+2020-10-27 17:00:44,317:INFO:setup(data=(300510, 3), categorical_features=None, categorical_imputation=constant, ordinal_features=None, high_cardinality_features=None, 
+                    numeric_features=['chn01', 'chn36', 'chn37'], numeric_imputation=mean, date_features=None, ignore_features=None, normalize=True,
+                    normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear,
+                    pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None,
+                    remove_multicollinearity=False, multicollinearity_threshold=0.9, group_features=None,
+                    group_names=None, supervised=False, supervised_target=None, n_jobs=-1, html=True, session_id=123, log_experiment=False,
+                    experiment_name=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False)
+2020-10-27 17:00:44,317:INFO:Checking environment
+2020-10-27 17:00:44,317:INFO:python_version: 3.7.9
+2020-10-27 17:00:44,317:INFO:python_build: ('default', 'Aug 31 2020 07:22:35')
+2020-10-27 17:00:44,317:INFO:machine: x86_64
+2020-10-27 17:00:44,334:INFO:platform: Darwin-19.6.0-x86_64-i386-64bit
+2020-10-27 17:00:44,335:INFO:Memory: svmem(total=68719476736, available=44526227456, percent=35.2, used=24189034496, free=25002487808, active=19567345664, inactive=14253182976, wired=4621688832)
+2020-10-27 17:00:44,335:INFO:Physical Core: 8
+2020-10-27 17:00:44,335:INFO:Logical Core: 16
+2020-10-27 17:00:44,335:INFO:Checking libraries
+2020-10-27 17:00:44,335:INFO:pd==1.1.3
+2020-10-27 17:00:44,335:INFO:numpy==1.19.1
+2020-10-27 17:00:44,335:INFO:sklearn==0.23.2
+2020-10-27 17:00:44,336:INFO:kmodes==0.10.2
+2020-10-27 17:00:44,955:INFO:mlflow==1.11.0
+2020-10-27 17:00:44,955:INFO:Checking Exceptions
+2020-10-27 17:00:44,955:INFO:Preloading libraries
+2020-10-27 17:00:44,955:INFO:Preparing display monitor
+2020-10-27 17:00:44,966:INFO:Importing libraries
+2020-10-27 17:00:44,966:INFO:Declaring global variables
+2020-10-27 17:00:44,967:INFO:Copying data for preprocessing
+2020-10-27 17:00:44,979:INFO:Declaring preprocessing parameters
+2020-10-27 17:00:44,979:INFO:Importing preprocessing module
+2020-10-27 17:00:46,886:INFO:Creating preprocessing pipeline
+2020-10-27 17:02:06,575:INFO:Preprocessing pipeline created successfully
+2020-10-27 17:02:06,576:INFO:Creating grid variables
+2020-10-27 17:02:06,578:INFO:Creating global containers
+2020-10-27 17:02:06,638:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      ml_usecase='regression',
+                                      numerical_features=['chn01', 'chn36',
+                                                          'chn37'],
+                                      target='dummy_target',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_lev...
+                ('group', Empty()),
+                ('scaling',
+                 Scaling_and_Power_transformation(function_to_apply='zscore',
+                                                  random_state_quantile=123,
+                                                  target='dummy_target')),
+                ('P_transform', Empty()), ('binn', Empty()),
+                ('fix_perfect', Empty()), ('rem_outliers', Empty()),
+                ('dummy', Dummify(target='dummy_target')),
+                ('clean_names', Clean_Colum_Names()), ('fix_multi', Empty()),
+                ('pca', Empty())],
+         verbose=False)
+2020-10-27 17:02:06,638:INFO:setup() succesfully completed......................................
+2020-10-27 17:02:06,644:INFO:Initializing create_model()
+2020-10-27 17:02:06,644:INFO:create_model(model=kmeans, num_clusters=None, ground_truth=None, verbose=True, system=True)
+2020-10-27 17:02:06,645:INFO:Checking exceptions
+2020-10-27 17:02:06,645:INFO:Preloading libraries
+2020-10-27 17:02:06,645:INFO:Setting num_cluster param
+2020-10-27 17:02:06,645:INFO:Preparing display monitor
+2020-10-27 17:02:06,656:INFO:Importing untrained model
+2020-10-27 17:02:06,657:INFO:K-Means Clustering Imported succesfully
+2020-10-27 17:02:06,660:INFO:Fitting Model
+2020-10-27 17:02:08,810:INFO:Evaluating Metrics
+2020-10-27 17:14:15,416:INFO:Creating Metrics dataframe
+2020-10-27 17:14:15,421:INFO:KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0)
+2020-10-27 17:14:15,421:INFO:create_models() succesfully completed......................................
+2020-10-27 17:14:15,432:INFO:Initializing assign_model()
+2020-10-27 17:14:15,432:INFO:assign_model(model=KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
+       n_clusters=4, n_init=10, n_jobs=-1, precompute_distances='deprecated',
+       random_state=123, tol=0.0001, verbose=0), transformation=False, verbose=True)
+2020-10-27 17:14:15,432:INFO:Checking exceptions
+2020-10-27 17:14:15,432:INFO:Preloading libraries
+2020-10-27 17:14:15,433:INFO:Copying data
+2020-10-27 17:14:15,435:INFO:Preparing display monitor
+2020-10-27 17:14:15,672:INFO:Determining Trained Model
+2020-10-27 17:14:15,673:INFO:Trained Model : K-Means Clustering
+2020-10-27 17:14:15,673:INFO:(300510, 4)
+2020-10-27 17:14:15,673:INFO:assign_model() succesfully completed......................................
