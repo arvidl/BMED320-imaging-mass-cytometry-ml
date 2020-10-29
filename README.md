@@ -115,17 +115,19 @@ Workflow of imaging mass cytometry (Figure from Giesen et al., Nature Methods, 2
 
 ## Machine Learning
 
-- PyCaret (https://pycaret.org) an open source, low-code machine learning library in Python that allows you to go from preparing your data to deploying your model within minutes in your choice of notebook environment.
+- PyCaret (https://pycaret.org) an open source, low-code machine learning library in Python that allows you to go from preparing your data to deploying your model within minutes in your choice of notebook environment. Latest version (28 Oct 2020) is PyCaret 2.2 (https://github.com/pycaret/pycaret/releases)
 - scikit-learn (https://scikit-learn.org) an open source library for machine learning in Python (also used implicitly by the cell image analysis software [CellProfiler](https://cellprofiler.org))
 
 
-## AI in cancer / oncology / pathology
+## AI in cancer / oncology / pathology / immunology
 
 - List of awesome code, papers, and resources for AI/deep learning/machine learning/neural networks applied to oncology https://github.com/cbailes/awesome-ai-cancer
 - Serag A et al. Translational AI and Deep Learning in Diagnostic Pathology. Front Med 2019;6:182 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6779702/
 - Becky Ham (MIT Media Lab) Deep learning accurately stains digital biopsy slides. MIT News 2020, May 22 https://news.mit.edu/2020/deep-learning-provides-accurate-staining-digital-biopsy-slides-0522 (original investigation at https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2766071)
 - Chen M et al. Classification and mutation prediction based on histopathology H&E images in liver cancer using deep learning. npj Precision Oncology 2020;4(14) https://www.nature.com/articles/s41698-020-0120-3 (The codes that were used to train and validate the deep-learning model in the manuscript are available at https://github.com/drmaxchen-gbc/HCC-deep-learning. It also used other open-source codes (inception V3), which were available at https://github.com/openslide/openslide-python)
 - Rivenson Y et al. PhaseStain: the digital staining of label-free quantitative phase microscopy images using deep learning. Light: Science & Applications 2019;8(23) https://www.nature.com/articles/s41377-019-0129-y
+- immunological-EN: Immunological Elastic Net (iEN) which integrates mechanistic immunological knowledge into a machine learning framework - https://github.com/Teculos/immunological-EN (see also https://nalab.stanford.edu/immunological-elastic-net)
+
 
 
 ## Hands-on Introductions
