@@ -3,6 +3,7 @@ dependencies:
 - python = 3.7
 - conda-forge::jupyter_contrib_nbextensions
 - conda-forge::jupyterlab
+- conda-forge::kneed
 - conda-forge::statsmodels
 - git
 - imageio
