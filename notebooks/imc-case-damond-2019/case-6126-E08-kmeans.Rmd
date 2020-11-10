@@ -1,0 +1,314 @@
+---
+title: "Case 6126-E08 Kmeans - R Notebook for Python"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+
+https://teachdatascience.com/reticulate
+
+https://rstudio-pubs-static.s3.amazonaws.com/188357_03392d56ec074b5e947b17ca8976d8be.html
+
+https://uc-r.github.io/kmeans_clustering
+
+https://www.r-bloggers.com/2014/10/working-with-nifti-images-in-r
+
+https://www.r-bloggers.com/2014/06/fslr-an-r-package-interfacing-with-fsl-for-neuroimaging-analysis
+
+```{r}
+library(reticulate)
+wd <- '/Users/arvid/GitHub/BMED320-imaging-mass-cytometry-ml/notebooks/imc-case-damond-2019'
+setwd(wd)
+print(getwd())
+os <- import("os")
+os$listdir()
+```
+
+
+```{r}
+library(reticulate)
+# cat $HOME/.Renviron
+# RETICULATE_PYTHON="/Users/arvid/opt/anaconda3/envs/imc/bin/python"
+print(Sys.which("python"))
+use_python("/Users/arvid/opt/anaconda3/envs/imc/bin/python", required=TRUE)
+print(Sys.which("python"))
+use_condaenv(condaenv ="imc", conda = "auto", required = TRUE)
+```
+
+```{r}
+library("reticulate")
+py_discover_config()
+```
+
+
+```{r}
+library(oro.nifti)
+
+fn <- 'data/imc_37_chns.nii.gz'
+img <- readNIfTI(fn)
+class(img)
+print(img)
+slotNames(img)
+print(img@bitpix)
+print(img@datatype)
+print(max(img))
+print(dim(img))
+print(img@dim_)
+print(pixdim(img))
+hist(img)
+```
+
+
+```{r}
+library(imager)
+img_imc = squeeze(img)
+dim(img_imc)
+```
+
+Advanced Techniques With Raster Data: Part 1 – Unsupervised Classification
+28 February 2018 by João Gonçalves
+
+https://www.r-exercises.com/2018/02/28/advanced-techniques-with-raster-data-part-1-unsupervised-classification/
+
+
+
+Read and plot the IMC data in the RGB display (bands 4,3,2) to see if everything is fine:
+
+```{r}
+library(raster)
+library(rgdal)
+
+fnt <- 'data/E08_a0_full.tiff'
+rst <- brick(fnt)
+
+plotRGB(rst, r=4, g=3, b=2, scale=10000, stretch="lin", main="RGB composite (b4,b3,b2) of E08_a0_full.tiff")
+```
+
+
+
+```{r}
+library(cluster)
+
+# Extract all values from the raster into a data frame
+rstDF <- values(rst)
+
+# Check NA's in the data
+idx <- complete.cases(rstDF)
+```
+
+
+```{r}
+library(cluster)
+# Initiate the raster datasets that will hold all clustering solutions 
+# from 2 groups/clusters up to 12
+rstKM <- raster(rst[[1]])
+rstCLARA <- raster(rst[[1]])
+```
+
+
+```{r}
+library(cluster)
+
+for(nClust in 2:12){
+  
+  cat("-> Clustering data for nClust =",nClust,"......")
+  
+  # Perform K-means clustering
+  km <- kmeans(rstDF[idx,], centers = nClust, iter.max = 50)
+  
+  # Perform CLARA's clustering (using manhattan distance)
+  cla <- clara(rstDF[idx, ], k = nClust, metric = "manhattan")
+  
+  # Create a temporary integer vector for holding cluster numbers
+  kmClust <- vector(mode = "integer", length = ncell(rst))
+  claClust <- vector(mode = "integer", length = ncell(rst))
+  
+  # Generate the temporary clustering vector for K-means (keeps track of NA's)
+  kmClust[!idx] <- NA
+  kmClust[idx] <- km$cluster
+  
+  # Generate the temporary clustering vector for CLARA (keeps track of NA's too ;-)
+  claClust[!idx] <- NA
+  claClust[idx] <- cla$clustering
+  
+  # Create a temporary raster for holding the new clustering solution
+  # K-means
+  tmpRstKM <- raster(rst[[1]])
+  # CLARA
+  tmpRstCLARA <- raster(rst[[1]])
+
+  # Set raster values with the cluster vector
+  # K-means
+  values(tmpRstKM) <- kmClust
+  # CLARA
+  values(tmpRstCLARA) <- claClust
+  
+  # Stack the temporary rasters onto the final ones
+  if(nClust==2){
+    rstKM    <- tmpRstKM
+    rstCLARA <- tmpRstCLARA
+  }else{
+    rstKM    <- stack(rstKM, tmpRstKM)
+    rstCLARA <- stack(rstCLARA, tmpRstCLARA)
+  }
+  
+  cat(" done!\n\n")
+}
+```
+
+
+```{r}
+library(cluster)
+
+# Write the clustering solutions for each algorithm
+writeRaster(rstKM,"./data/E08_a0_full_KMeans_nc2_12.tif", overwrite=TRUE)
+writeRaster(rstCLARA,"./data/E08_a0_full_CLARA_nc2_12.tif", overwrite=TRUE)
+```
+
+
+Evaluating Unsupervised Classification/Clustering Performance
+
+
+For evaluating the performance of each clustering solution and selecting the “best” number of clusters for partitioning the sample data, we will use the silhouette Index.
+
+More specifically, the silhouette refers to a method of interpreting and validating the consistency within clusters of data (hence its called an internal criteria in clusterCrit package.) In a nutshell, this method provides a graphical representation that depicts how well each clustered object lies within its cluster. Also, the silhouette value is a measure of how similar an object is to its own cluster (assessing intra-cluster cohesion) compared to other clusters (denoting between-clusters’ separation).
+
+The silhouette index ranges from −1 to +1, where a high value indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters. If most objects have a high value, then the clustering configuration is considered appropriate. If many points have a low or negative value, then the clustering configuration may have too many or too few clusters.
+
+In R, the clusterCrit package provides an implementation of this internal clustering criteria in the intCriteria(among many others, such as the Dunn, Ball-Hall, Davies-Bouldin, GDI, Tau indices.) Check out library(help="clusterCrit") and vignette("clusterCrit") for more info on this package.
+
+Now that we have defined the conceptual underpinnings of the silhouette index, we can implement it in R code. One important detail before we proceed: since calculating the silhouette index is a rather slow process for large numbers’ of observations (>5000), we will use a stratified random sampling approach.
+
+This means that we will take a sub-set of cells from each cluster and calculate the index based on those. We are assuming that the sample is somewhat robust and representative of the whole cells. Ideally, this process should be repeated several times and then an average value could be calculated (using a bootstrap approach would also be nice here.) However, for the sake of simplicity (and also because estimation generally yields relatively low errors… you have to trust me here… ) we will use a single sample of cells in this example.
+
+Let’s see how this works out (use comments to guide you through the code):
+
+```{r}
+library(clusterCrit)
+
+# Start a data frame that will store all silhouette values
+# for k-means and CLARA   
+clustPerfSI <- data.frame(nClust = 2:12, SI_KM = NA, SI_CLARA = NA)
+
+
+for(i in 1:nlayers(rstKM)){ # Iterate through each layer
+  
+  cat("-> Evaluating clustering performance for nClust =",(2:12)[i],"......")
+  
+  # Extract random cell samples stratified by cluster
+  cellIdx_RstKM <- sampleStratified(rstKM[[i]], size = 2000)
+  cellIdx_rstCLARA <- sampleStratified(rstCLARA[[i]], size = 2000)
+  
+  # Get cell values from the Stratified Random Sample from the raster 
+  # data frame object (rstDF)
+  rstDFStRS_KM <- rstDF[cellIdx_RstKM[,1], ]
+  rstDFStRS_CLARA <- rstDF[cellIdx_rstCLARA[,1], ]
+  
+  # Make sure all columns are numeric (intCriteria function is picky on this)
+  rstDFStRS_KM[] <- sapply(rstDFStRS_KM, as.numeric)
+  rstDFStRS_CLARA[] <- sapply(rstDFStRS_CLARA, as.numeric)
+  
+  # Compute the sample-based Silhouette index for: 
+  #    
+  # K-means
+  clCritKM <- intCriteria(traj = rstDFStRS_KM, 
+                          part = as.integer(cellIdx_RstKM[,2]),
+                          crit = "Silhouette")
+  # and CLARA
+  clCritCLARA <- intCriteria(traj = rstDFStRS_CLARA, 
+                             part = as.integer(cellIdx_rstCLARA[,2]),
+                             crit = "Silhouette")
+
+  # Write the silhouette index value to clustPerfSI data frame holding 
+  # all results
+  clustPerfSI[i, "SI_KM"]    <- clCritKM[[1]][1]
+  clustPerfSI[i, "SI_CLARA"] <- clCritCLARA[[1]][1]
+  
+  cat(" done!\n\n")
+  
+}
+
+write.csv(clustPerfSI, file = "./data/clustPerfSI.csv", row.names = FALSE)
+```
+
+
+
+
+
+```{python}
+import pandas as pd
+fn = 'test_data/flights.csv'
+flights = pd.read_csv(fn, sep = ';')
+```
+
+library(cluster)
+
+X <- EuStockMarkets
+kmm <- kmeans(X, 8)
+
+D <- daisy(X)
+plot(silhouette(kmm$cluster, D), col=1:8, border=NA)
+
+
+```{python}
+import pandas as pd
+fn = 'test_data/flights.csv'
+flights = pd.read_csv(fn, sep = ';')
+flights = flights[flights['dest'] == 'ORD']
+flighhs = flights[['carrier', 'dep_delay', 'arr_delay']]
+flights = flights.dropna()
+flights['month'] = pd.DatetimeIndex(flights['date']).month
+flights.columns.T
+```
+
+
+```{python}
+flights.shape
+flights.head(5)
+flights.describe()
+```
+
+
+```{python}
+flights.groupby('carrier').mean()
+```
+
+
+```{r, fig.width=7, fig.height=3}
+library(ggplot2)
+ggplot(py$flights, aes(carrier, arr_delay)) + geom_point() + geom_jitter()
+``` 
+
+
+```{r}
+library(dplyr)
+py$flights %>%
+  dplyr::select(carrier, dep_delay, arr_delay) %>%
+  tidyr::drop_na() %>% 
+  group_by(carrier) %>%
+  summarize(mean_dep_delay = mean(dep_delay), mean_arr_delay = mean(arr_delay))
+```
+
+
+```{r}
+library(ggplot2)
+py$flights %>%
+  tidyr::drop_na() %>%
+  group_by(carrier, month) %>%
+  summarize(mean_dep_delay = mean(dep_delay)) %>% 
+  ggplot(aes(x=as.factor(month), y = mean_dep_delay, group = carrier, color=carrier))  + 
+  geom_point() + geom_line() + xlab("Month") + ylab("Average Departure Delay")
+```  
+
+
+  
