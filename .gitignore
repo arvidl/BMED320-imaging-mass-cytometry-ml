@@ -15,3 +15,4 @@ unsynceddata/
 # Mac
 .DS_Store
 
+notebooks/imc-case-damond-2019/data/BMED320_experiments_case6126_E08_CyTOF_scaled_pixels.csv
