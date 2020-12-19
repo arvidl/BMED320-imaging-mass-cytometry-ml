@@ -1,6 +1,6 @@
 name: imc
 dependencies:
-- python = 3.7
+- python = 3.8
 - conda-forge::jupyter_contrib_nbextensions
 - conda-forge::jupyterlab
 - conda-forge::kneed
@@ -29,7 +29,7 @@ dependencies:
   - eli5
   - google-cloud-storage
   - imagecodecs
-  - imctools==2.0.1
+  - imctools==2.1.0
   - mxnet-mkl
   - natsort
   - nibabel
