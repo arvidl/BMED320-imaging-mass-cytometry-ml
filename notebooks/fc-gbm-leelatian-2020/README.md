@@ -8,3 +8,10 @@ RAPID identifies single cell phenotypes associated with continuous clinical vari
 
 
 ![Suppl-Tab3](./assets/elife-56879-supp-tab3.png)
+
+
+### Flow Cytometry in Python
+
+- https://pypi.org/search/?q=Flow+Cytometry
+- The fcm flow cytometry analysis library https://pythonhosted.org/fcm/basic.html
+- [Cytoflow](https://github.com/cytoflow/cytoflow) (Python tools for quantitative, reproducible flow cytometry analysis) - `pip install cytoflow` or `conda install -c bpteague cytoflow`
