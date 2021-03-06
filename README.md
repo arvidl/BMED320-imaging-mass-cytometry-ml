@@ -63,7 +63,7 @@ The key use case for imaging mass cytometry is for research questions that invol
 **IMC in glioblastoma**
 
 N. Leelatian et al. Unsupervised machine learning reveals risk stratifying glioblastoma tumor cells. [eLife 2020;9:e56879](https://elifesciences.org/articles/56879?_ga=2.152338937.194252844.1613437840-1331803966.1607125053)
-- RAPID was designed for datasets like Dataset 1, a pilot glioblastoma mass cytometry dataset including cells collected from 28 patients with _isocitrate dehydrogenase (IDH)_ wild-type glioblastoma at the time of primary surgical resection. This dataset is currently available online at https://flowrepository.org/id/FR-FCM-Z24K
+- Risk Assessment Population IDentification (RAPID) is a unsupervised and automated, identifies phenotypically distinct cell populations, and determines whether these populations stratify patient survival was designed for datasets like Dataset 1, a pilot glioblastoma mass cytometry dataset including cells collected from 28 patients with _isocitrate dehydrogenase (IDH)_ wild-type glioblastoma at the time of primary surgical resection. This dataset is currently available online at https://flowrepository.org/id/FR-FCM-Z24K
 
 ### For references see [[here](refs)]
 
