@@ -1,4 +1,4 @@
-### Unsupervised machine learning reveals risk stratifying glioblastoma tumor cells [eLife 2020](https://elifesciences.org/articles/56879?_ga=2.152338937.194252844.1613437840-1331803966.1607125053)
+### Unsupervised machine learning reveals risk stratifying glioblastoma tumor cells [[eLife 2020](https://elifesciences.org/articles/56879?_ga=2.152338937.194252844.1613437840-1331803966.1607125053)]
 
 https://github.com/cytolab/RAPID
 
