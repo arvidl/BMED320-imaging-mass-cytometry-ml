@@ -9,6 +9,8 @@ RAPID identifies single cell phenotypes associated with continuous clinical vari
 
 ![Suppl-Tab3](./assets/elife-56879-supp-tab3.png)
 
+![CyTOF Panel](./assets/CyTOF_panel.png)
+
 
 ### Flow Cytometry in Python
 
