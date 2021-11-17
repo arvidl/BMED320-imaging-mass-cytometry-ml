@@ -30,13 +30,13 @@ dependencies:
   - google-cloud-storage
   - imagecodecs
   - imctools==2.1.0
-  - mxnet-mkl
+#  - mxnet-mkl
   - natsort
   - nibabel
   - opencv-python
   - opencv-python-headless
   - pdpbox
-  - pycaret==2.2.2
+# - pycaret==2.2.2
   - pyqtgraph==0.11.0rc0
   - tifffile
   - tqdm
