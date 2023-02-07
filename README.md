@@ -1,4 +1,4 @@
-# BMED320: Methods in biomedical research  (IMC-ML)
+https://github.com/BodenmillerGroup/steinbock# BMED320: Methods in biomedical research  (IMC-ML)
 _BMED320-imaging-mass-cytometry-ml_ - project on Imaging Mass Cytometry and Machine Learning at Department of Biomedicine, UiB
 
 (See project report on Overleaf: https://www.overleaf.com/project/5f6cc165004ab4000137985a)
@@ -11,10 +11,10 @@ Our group is working at the Mohn Medical Imaging and Visualisation (MMIV) Centre
 
 NOTE 2023-02-07 (Aina, Brain-Gut meeting)- Images from Windager et al.
 
-- Bodenmillergroup GitHub repo. On-line book "Analysi workflow from IMC data" C>ompiled 2023-01-01
-- Steinbock framework (GitHub)
+- Bodenmillergroup [GitHub repo](https://github.com/BodenmillerGroup. On-line book "[Analysis workflow from IMC data](https://bodenmillergroup.github.io/IMCWorkflow)" 
+- Steinbock framework ([GitHub](https://github.com/BodenmillerGroup/steinbock))
    - Dockercontainers (steinbock code, pretrained models, etc)
-   - Identifying cells in images (Mesmer: deep learning algorithm trained on TissueNet)
+   - Identifying cells in images (Mesmer: deep learning algorithm trained on TissueNet ([DeepCell](https://github.com/vanvalenlab/intro-to-deepcell)) ([paper](https://www.nature.com/articles/s41587-021-01094-0))
    - Measuring cell features 
    - Qulity controll in R (imcRtools / Bioconductor, Cytomapper; intensities, regionprops, neighbours spatial cell neighbours list),
      images.csv (image specific metadata)
@@ -22,7 +22,7 @@ NOTE 2023-02-07 (Aina, Brain-Gut meeting)- Images from Windager et al.
 Transformation (arcsinh transformation of intensities), e.f. CD3 channel  before and after transform
 Single-cell visualization by Dimensionality reduction (UMAP, tSNE)
 Clustering with Phenograph (expression on UMAP)
-Classification with manual gating (cytomapper). e.g. CD3, CD4
+Classification with manual gating ([cytomapper](https://github.com/BodenmillerGroup/cytomapper)). e.g. CD3, CD4
 Future: correction for spillover, spatial analysis
 
 
