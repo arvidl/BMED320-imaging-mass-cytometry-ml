@@ -9,7 +9,7 @@ Our group is working at the Mohn Medical Imaging and Visualisation (MMIV) Centre
 
 ---------
 
-NOTE 2023-02-07 (Aina, Brain-Gut meeting)- Images from Windager et al.
+**NOTE 2023-02-07** (Aina van der Meeren, Brain-Gut meeting)- Images from [Windhager et al.](https://www.biorxiv.org/content/10.1101/2021.11.12.468357v1)
 
 - Bodenmillergroup [GitHub repo](https://github.com/BodenmillerGroup). On-line book "[Analysis workflow from IMC data](https://bodenmillergroup.github.io/IMCWorkflow)" 
 - Steinbock framework ([GitHub](https://github.com/BodenmillerGroup/steinbock))
@@ -23,7 +23,7 @@ Transformation (arcsinh transformation of intensities), e.f. CD3 channel  before
 Single-cell visualization by Dimensionality reduction (UMAP, tSNE)
 Clustering with Phenograph (expression on UMAP)
 Classification with manual gating ([cytomapper](https://github.com/BodenmillerGroup/cytomapper)). e.g. CD3, CD4
-Future: correction for spillover, spatial analysis
+Future: correction for [spillover](https://bodenmillergroup.github.io/IMCDataAnalysis/spillover-correction.html), spatial analysis, [3D IMC](https://www.nature.com/articles/s43018-021-00301-w)
 
 
 --------
