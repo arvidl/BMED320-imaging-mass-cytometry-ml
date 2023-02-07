@@ -11,10 +11,10 @@ Our group is working at the Mohn Medical Imaging and Visualisation (MMIV) Centre
 
 NOTE 2023-02-07 (Aina, Brain-Gut meeting)- Images from Windager et al.
 
-- Bodenmillergroup [GitHub repo](https://github.com/BodenmillerGroup. On-line book "[Analysis workflow from IMC data](https://bodenmillergroup.github.io/IMCWorkflow)" 
+- Bodenmillergroup [GitHub repo](https://github.com/BodenmillerGroup). On-line book "[Analysis workflow from IMC data](https://bodenmillergroup.github.io/IMCWorkflow)" 
 - Steinbock framework ([GitHub](https://github.com/BodenmillerGroup/steinbock))
    - Dockercontainers (steinbock code, pretrained models, etc)
-   - Identifying cells in images (Mesmer: deep learning algorithm trained on TissueNet ([DeepCell](https://github.com/vanvalenlab/intro-to-deepcell)) ([paper](https://www.nature.com/articles/s41587-021-01094-0))
+   - Identifying cells in images ([Mesmer](https://github.com/vanvalenlab/publication-figures/tree/master/2021-Greenwald_Miller_et_al-Mesmer)): deep learning algorithm trained on TissueNet ([DeepCell](https://github.com/vanvalenlab/intro-to-deepcell)) ([paper](https://www.nature.com/articles/s41587-021-01094-0)) ([https://datasets.deepcell.org](DeepCell datasets) - A hub for biological images with single-cell annotations)
    - Measuring cell features 
    - Qulity controll in R (imcRtools / Bioconductor, Cytomapper; intensities, regionprops, neighbours spatial cell neighbours list),
      images.csv (image specific metadata)
