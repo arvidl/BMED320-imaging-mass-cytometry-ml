@@ -13,14 +13,18 @@ NOTE 2023-02-07 (Aina, Brain-Gut meeting)- Images from Windager et al.
 
 - Bodenmillergroup GitHub repo. On-line book "Analysi workflow from IMC data" C>ompiled 2023-01-01
 - Steinbock framework (GitHub)
-   - Dockercontainers (steinbock code, preytrained models, etc)
+   - Dockercontainers (steinbock code, pretrained models, etc)
    - Identifying cells in images (Mesmer: deep learning algorithm trained on TissueNet)
    - Measuring cell features 
-   - Qulity controll in R (imcRtools /& Bioconductor, Cytomapper; intensities, regionprops, neighbours spatial cell neighbours list),
+   - Qulity controll in R (imcRtools / Bioconductor, Cytomapper; intensities, regionprops, neighbours spatial cell neighbours list),
      images.csv (image specific metadata)
             - read_steinbock (reads into a "spatialExperiment" object
 Transformation (arcsinh transformation of intensities), e.f. CD3 channel  before and after transform
 Single-cell visualization by Dimensionality reduction (UMAP, tSNE)
+Clustering with Phenograph (expression on UMAP)
+Classification with manual gating (cytomapper). e.g. CD3, CD4
+Future: correction for spillover, spatial analysis
+
 
 --------
 
