@@ -19,10 +19,10 @@ Our group is working at the Mohn Medical Imaging and Visualisation (MMIV) Centre
    - Qulity controll in R (imcRtools / Bioconductor, Cytomapper; intensities, regionprops, neighbours spatial cell neighbours list),
      images.csv (image specific metadata)
             - read_steinbock (reads into a "spatialExperiment" object
-Transformation (arcsinh transformation of intensities), e.f. CD3 channel  before and after transform
-Single-cell visualization by Dimensionality reduction (UMAP, tSNE)
-Clustering with Phenograph (expression on UMAP)
-Classification with manual gating ([cytomapper](https://github.com/BodenmillerGroup/cytomapper)). e.g. CD3, CD4
+   - Transformation ([arcsinh transformation](https://support.cytobank.org/hc/en-us/articles/206148057-About-the-Arcsinh-transform) of intensities), e.g. CD3 channel  before and after transform
+   - Single-cell visualization by Dimensionality reduction (UMAP, tSNE)
+   - Clustering with [Phenograph](https://github.com/dpeerlab/PhenoGraph) (expression on UMAP)
+   - Classification with manual gating ([cytomapper](https://github.com/BodenmillerGroup/cytomapper)). e.g. CD3, CD4
 - Future: correction for [spillover](https://bodenmillergroup.github.io/IMCDataAnalysis/spillover-correction.html), spatial analysis, [3D IMC](https://www.nature.com/articles/s43018-021-00301-w)
 
 
