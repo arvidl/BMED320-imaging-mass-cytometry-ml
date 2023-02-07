@@ -7,7 +7,22 @@ _BMED320-imaging-mass-cytometry-ml_ - project on Imaging Mass Cytometry and Mach
 
 Our group is working at the Mohn Medical Imaging and Visualisation (MMIV) Centre on machine learning in medical imaging (https://mmiv.no/machinelearning). We offer the opportunity to get into the methods and tools (e.g. Jupyter notebooks and Python programming) related to this research. See also the topics and teaching material at the virtual NordBioMedNet Summer School 2020: Computational Biomedicine - Imaging, machine learning and precision medicine (https://github.com/oercompbiomed/Seili-2020) that might interest you.
 
+---------
 
+NOTE 2023-02-07 (Aina, Brain-Gut meeting)- Images from Windager et al.
+
+- Bodenmillergroup GitHub repo. On-line book "Analysi workflow from IMC data" C>ompiled 2023-01-01
+- Steinbock framework (GitHub)
+   - Dockercontainers (steinbock code, preytrained models, etc)
+   - Identifying cells in images (Mesmer: deep learning algorithm trained on TissueNet)
+   - Measuring cell features 
+   - Qulity controll in R (imcRtools /& Bioconductor, Cytomapper; intensities, regionprops, neighbours spatial cell neighbours list),
+     images.csv (image specific metadata)
+            - read_steinbock (reads into a "spatialExperiment" object
+Transformation (arcsinh transformation of intensities), e.f. CD3 channel  before and after transform
+Single-cell visualization by Dimensionality reduction (UMAP, tSNE)
+
+--------
 
 # Setting up your system (preparation to the project)
 
