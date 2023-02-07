@@ -23,7 +23,7 @@ Transformation (arcsinh transformation of intensities), e.f. CD3 channel  before
 Single-cell visualization by Dimensionality reduction (UMAP, tSNE)
 Clustering with Phenograph (expression on UMAP)
 Classification with manual gating ([cytomapper](https://github.com/BodenmillerGroup/cytomapper)). e.g. CD3, CD4
-Future: correction for [spillover](https://bodenmillergroup.github.io/IMCDataAnalysis/spillover-correction.html), spatial analysis, [3D IMC](https://www.nature.com/articles/s43018-021-00301-w)
+- Future: correction for [spillover](https://bodenmillergroup.github.io/IMCDataAnalysis/spillover-correction.html), spatial analysis, [3D IMC](https://www.nature.com/articles/s43018-021-00301-w)
 
 
 --------
