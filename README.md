@@ -1,4 +1,4 @@
-https://github.com/BodenmillerGroup/steinbock# BMED320: Methods in biomedical research  (IMC-ML)
+# BMED320: Methods in biomedical research  (IMC-ML)
 _BMED320-imaging-mass-cytometry-ml_ - project on Imaging Mass Cytometry and Machine Learning at Department of Biomedicine, UiB
 
 (See project report on Overleaf: https://www.overleaf.com/project/5f6cc165004ab4000137985a)
